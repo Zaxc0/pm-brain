@@ -2,34 +2,69 @@
 
 > **Your external product management brain. Single source of truth: latest commit.**
 
-A living knowledge base that bridges the gap between PM frameworks and actual operational execution. Git-versioned, shareable, ready to use.
+Product teams drown in blog posts and frameworks but still don't know **how to actually do the work**. A junior PM asks "how do we prioritize this?" — no clear answer. You need to run sprint planning in 30 minutes — no process doc. Leadership wants a product strategy by EOD — you start from scratch. You're onboarding someone — repeating yourself for the 47th time.
 
-Product teams drown in blog posts and frameworks but still don’t know how to run sprint planning on Tuesday morning or write a PRD by end-of-day. This repo gives you battle-tested guides, templates, and playbooks — all wired into a coherent system.
+**Frameworks are everywhere. Operational execution guides are not.**
 
-- A junior PM asks “how do we prioritize this?”
-- You need to run a sprint planning session in 30 minutes
-- Leadership wants a product strategy doc by EOD
-- You’re onboarding someone and don’t want to repeat yourself for the 47th time
+This repo bridges that gap with a living, git-versioned knowledge base that gives you battle-tested guides, templates, and playbooks — all wired into a coherent system:
 
-**Single Source of Truth Principle:** The latest commit is always the current reality. No version confusion, no stale docs in Notion/Confluence that nobody updates.
+- **🧭 Frameworks** – decision models and methods that actually help you choose what to do next  
+- **📋 Step-by-step guides** – checklists and how-tos for running key rituals and processes  
+- **📄 Copy-paste templates** – PRDs, one-pagers, roadmaps, comms, and more, ready to fill in  
+- **🚨 Scenario playbooks** – what to do when things go sideways (incidents, tough conversations, tradeoffs)  
+- **🏢 Company context** – vision, strategy, principles, portfolio, roadmap, and stakeholders that don't go stale  
+- **🤖 Prompt libraries** – reusable prompts for structured thinking with AI tools (ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, etc.)
 
-**How to use it (two common paths):**
+**Single Source of Truth Principle:** The latest commit is always the current reality. No version confusion, no stale docs in Notion or Confluence that nobody updates.  
 
-- **If you’re technically savvy and use GitHub + IDEs** (e.g. VS Code, Cursor, Replit, Claude Code, etc.):  
-  - 🚀 Get started: clone the repo → plug in your company context → start shipping from this folder structure.  
-  - Optionally point your IDE’s AI tools at this repo (or selected subfolders) as project context.
+---
 
-- **If you mostly use chat-based AI tools** (e.g. ChatGPT, Claude, Gemini):  
-  - Browse to the folder you care about (company context, methods & tools, research artifacts, initiatives).  
-  - Copy the relevant README + template you want to work with.  
-  - Paste it into your AI session as “here’s the structure I use; help me fill/adapt it,” and reuse those templates across conversations.
+## 🚀 How to Get Started
 
-- **🧭 Frameworks** – decision models and methods that actually help you choose what to do next.  
-- **📋 Step-by-step operational guides** – checklists and how-tos for running key rituals and processes.  
-- **📄 Copy-paste ready templates** – PRDs, one-pagers, roadmaps, comms, and more, ready to fill in.  
-- **🚨 Scenario-based playbooks** – what to do when things go sideways: incidents, tough conversations, tradeoffs.  
-- **🏢 Company context** – vision, strategy, principles, portfolio, roadmap, and stakeholders that don’t go stale.  
-- **🤖 Prompt libraries** – reusable prompts for structured thinking with your own context in AI tools.  
+### Option 1: Manual (Copy-Paste into AI Tools)
+
+**Best for:** Quick use with ChatGPT, Claude, Gemini, Microsoft Copilot, or other chat-based AI tools.
+
+1. **Browse** to the folder you need:
+   - `01-Company-Context/` – for company strategy, vision, stakeholders
+   - `02-Methods-and-Tools/` – for frameworks, guides, templates, playbooks
+   - `03-Research-Artifacts/` – for research storage structure
+   - `04-Initiatives/` – for opportunity assessments and initiative planning
+
+2. **Copy** the relevant README + template files.
+
+3. **Paste** into your AI chat session with a prompt like:
+   ```
+   Here's the structure I use for [product strategy / PRDs / OKRs / etc.].
+   Help me fill it out / adapt it for [my context].
+   ```
+4. **Save for reuse** (optional but recommended):
+   - Upload the template files to your AI tool's project/workspace feature (e.g., ChatGPT's "My GPTs", Claude's "Projects", or similar)
+   - Or save the conversation/context so you can reference it in future sessions
+   - This lets you reuse templates without copying/pasting each time
+
+5. **Reuse** those templates across conversations.
+
+### Option 2: Technical (Clone & Use with IDE AI Tools)
+
+**Best for:** GitHub users with VS Code, Cursor, GitHub Copilot, Replit, or similar IDE AI tools.
+
+1. **Clone** the repo:
+   ```bash
+   git clone https://github.com/andreaskelm/pm-brain.git
+   cd pm-brain
+   ```
+
+2. **Plug in your company context**:
+   - Replace placeholders in `01-Company-Context/` with your actual vision, strategy, principles, etc.
+   - Customize templates in `02-Methods-and-Tools/` for your team's workflows.
+
+3. **Start shipping** from this folder structure:
+   - Use frameworks and guides in `02-Methods-and-Tools/` for daily work.
+   - Store research in `03-Research-Artifacts/`.
+   - Document initiatives in `04-Initiatives/`.
+
+4. **Optional:** Point your IDE's AI tools (Cursor, GitHub Copilot, etc.) at this repo or specific subfolders as project context for AI-assisted work.
 
 ---
 
@@ -37,231 +72,139 @@ Product teams drown in blog posts and frameworks but still don’t know how to r
 
 This is a **PM brain-as-code**, not a random notes folder. The directories represent different **types of work** and **layers of your product system**, not a rigid sequential process.
 
-At the top level, you work across four main layers:
-
-- **01-Company-Context**: Your **product and company brain** — strategy, vision, metrics, stakeholders, processes.  
-- **02-Methods-and-Tools**: Your **PM operating system** — decision frameworks, operational guides, templates, playbooks, and prompts, organized by topic.  
-- **03-Research-Artifacts**: Your **evidence layer** — interview notes, synthesis, research findings.  
-- **04-Initiatives**: Your **bets and decisions** — early thinking, opportunity assessments, and initiative docs.
-
-Around that core, you can add **optional layers**:
-
-- **08-Prototypes**: Experiments and prototype implementations.  
-- **09-Personal-Context**: Personal notes and development (typically kept in a private fork).  .
-
-You can use this repo directly in git, or **bring parts of it into your favorite AI tools** (e.g. Cursor, Replit, VS Code extensions, hosted LLMs) by creating projects/workspaces there and uploading selected templates or context docs as reference. The recommended approach is to treat this repo as the **source of truth**, and copy only the pieces you need into other tools’ “project context” or “instructions” areas.
-
-**Daily Work Flow:**
-1. Reference `01-Company-Context/` for strategic direction and company information
-2. Use `02-Methods-and-Tools/` when you need a process, framework, template, or playbook
-3. Store research outputs in `03-Research-Artifacts/` after completing discovery work
-4. Do your active product work in `04-Initiatives/` (planning, documenting, iterating)
-
----
-
-## 📂 Project Structure (High-Level)
+### Four Core Layers
 
 ```text
 pm-brain/
-├── 01-Company-Context/        # 🏢 Strategic and company context (your private reality)
-├── 02-Methods-and-Tools/      # 🧭 PM operating system (frameworks, guides, templates, playbooks, prompts)
-├── 03-Research-Artifacts/     # 🔍 Research outputs and evidence
-├── 04-Initiatives/            # 🚧 Active product bets & opportunity assessments
-├── 08-Prototypes/             # 🧪 Prototype implementations and experiments
-├── 09-Personal-Context/       # 🧑 Optional personal layer (usually private)
-└── README.md                  # This file
+├── 01-Company-Context/        # 🏢 Strategic foundation (vision, strategy, metrics, stakeholders)
+├── 02-Methods-and-Tools/      # 🧭 PM operating system (frameworks, guides, templates, prompts)
+├── 03-Research-Artifacts/     # 🔍 Evidence layer (interview notes, synthesis, findings)
+└── 04-Initiatives/            # 🚧 Active bets (early thinking, opportunity assessments, docs)
 ```
 
-### How Methods & Tools Fit Inside This Structure
+### Optional Layers
 
-Inside `02-Methods-and-Tools/`, content is organized by **domain** and numbered frameworks:
+```text
+├── 08-Prototypes/             # 🧪 Experiments and prototype implementations
+└── 09-Personal-Context/       # 🧑 Personal notes (keep sensitive content in private fork)
+```
+
+### Daily Workflow
+
+1. **Reference** `01-Company-Context/` for strategic direction and company information.
+2. **Use** `02-Methods-and-Tools/` when you need a process, framework, template, or playbook.
+3. **Store** research outputs in `03-Research-Artifacts/` after completing discovery work.
+4. **Do** your active product work in `04-Initiatives/` (planning, documenting, iterating).
+
+---
+
+## 📂 What's Inside `02-Methods-and-Tools/`
+
+Content is organized by **domain** and **numbered frameworks**:
 
 ```text
 02-Methods-and-Tools/
-├── 2.1-Strategy/        # Strategy, OKRs, roadmap, PRDs, personas
-├── 2.2-Communication/   # Stakeholder comms, courses, formats
-├── 2.3-Discovery/       # Continuous discovery, JTBD, validation
-└── 2.9-Other/           # Supporting methods & mental models
+├── 2.1-Strategy/            # Strategy, OKRs, roadmaps, PRDs, personas
+│   ├── 2.1.1-Product-Strategy/
+│   ├── 2.1.2-OKR/
+│   ├── 2.1.3-Roadmap/
+│   ├── 2.1.4-PRD/
+│   ├── 2.1.5-Personas/
+│   ├── 2.1.6-North-Star/        (placeholder)
+│   └── 2.1.7-Prioritization/    (placeholder)
+├── 2.2-Communication/       # Newsletters, stakeholder comms, courses
+│   ├── 2.2.1-Newsletter/
+│   ├── 2.2.2-Meeting-Agendas/   (placeholder)
+│   ├── 2.2.3-One-Pagers/        (placeholder)
+│   ├── 2.2.4-Crisis-Management/ (placeholder)
+│   └── 2.2.9-Courses/
+├── 2.3-Discovery/           # Continuous discovery, JTBD, validation
+│   ├── 2.3.1-Research-Interviews/
+│   ├── 2.3.2-Continuous-Discovery-Habits/
+│   ├── 2.3.3-Jobs-To-Be-Done/
+│   └── 2.3.4-Idea-Validation/
+└── 2.9-Other/               # Mental models and supporting methods
+    └── 2.9.1-Mental-Models/
 ```
 
-Examples:
+**Key examples:**
+- Product strategy sprint: `02-Methods-and-Tools/2.1-Strategy/2.1.1-Product-Strategy/`
+- OKR framework & templates: `02-Methods-and-Tools/2.1-Strategy/2.1.2-OKR/`
+- PRD framework & templates: `02-Methods-and-Tools/2.1-Strategy/2.1.4-PRD/`
+- Research interview guide: `02-Methods-and-Tools/2.3-Discovery/2.3.1-Research-Interviews/1-interview-guide.md`
+- Continuous discovery habits: `02-Methods-and-Tools/2.3-Discovery/2.3.2-Continuous-Discovery-Habits/`
+- Jobs-to-be-Done: `02-Methods-and-Tools/2.3-Discovery/2.3.3-Jobs-To-Be-Done/`
+- Idea validation: `02-Methods-and-Tools/2.3-Discovery/2.3.4-Idea-Validation/`
 
-- Product strategy sprint: `02-Methods-and-Tools/2.1-Strategy/2.1.1-Product-Strategy/`  
-- OKR framework and templates: `02-Methods-and-Tools/2.1-Strategy/2.1.2-OKR/`  
-- Roadmap framework and templates: `02-Methods-and-Tools/2.1-Strategy/2.1.3-Roadmap/`  
-- PRD framework and templates: `02-Methods-and-Tools/2.1-Strategy/2.1.4-PRD/`  
-- Personas framework and template: `02-Methods-and-Tools/2.1-Strategy/2.1.5-Personas/`  
-- Newsletter framework and template: `02-Methods-and-Tools/2.2-Communication/2.2.1-Newsletter/`  
-- Research interview guide: `02-Methods-and-Tools/2.3-Discovery/2.3.1-Research-Interviews/1-interview-guide.md`  
-- Continuous discovery habits: `02-Methods-and-Tools/2.3-Discovery/2.3.2-Continuous-Discovery-Habits/`  
-- JTBD framework: `02-Methods-and-Tools/2.3-Discovery/2.3.3-Jobs-To-Be-Done/`  
-- Idea validation framework: `02-Methods-and-Tools/2.3-Discovery/2.3.4-Idea-Validation/`  
+See `02-Methods-and-Tools/README.md` for a complete guide on choosing the right method for your situation.
 
-- **01-Company-Context** maps to the **`context/` layer** from the PM Brain idea (team structure, tech stack, metrics, processes), but as templates and structures you fill in privately.  
-- **03-Research-Artifacts** holds the **evidence** your brain runs on.  
-- **04-Initiatives** is where you **apply** the brain to real product work (opportunity assessments, initiative docs) using frameworks and templates from `02-Methods-and-Tools`.
+---
 
 ## 🎓 Who This Is For
 
 ### Junior PMs (APMs, Associate PMs)
 
-- **Actionable steps**: Not just “run user research” — here you’ll find actual interview guides, templates, and checklists.  
-- **Process reminders**: Step-by-step guides so you don’t miss critical steps during planning, discovery, or delivery.  
+- **Actionable steps**: Not just "run user research" — actual interview guides, templates, and checklists.
+- **Process reminders**: Step-by-step guides so you don't miss critical steps during planning, discovery, or delivery.
 - **Clear escalation paths**: Guidance on when to involve senior PMs, leadership, or other teams.
 
 ### Mid-Level PMs
 
-- **Framework reference**: Quick access to prioritization models, strategy frameworks, and discovery patterns when stakeholders disagree.  
-- **Template library**: Proven PRDs, one-pagers, and comms templates so you don’t reinvent the wheel.  
-- **Stakeholder patterns**: Playbooks for managing expectations, saying no, and aligning teams.
+- **Framework reference**: Quick access to prioritization models, strategy frameworks, and discovery patterns when stakeholders disagree.
+- **Template library**: Proven PRDs, one-pagers, and communication templates so you don't reinvent the wheel.
+- **Stakeholder patterns**: Guides for managing expectations, saying no, and aligning teams.
 
 ### Senior PMs & Leads
 
-- **Onboarding accelerator**: Point new hires at this system instead of repeating yourself in Slack and meetings.  
-- **Team alignment**: Shared language, artifacts, and playbooks that reduce friction across teams.  
-- **Knowledge preservation**: Your team’s operating system doesn’t walk out the door when someone leaves.
+- **Onboarding accelerator**: Point new hires at this system instead of repeating yourself in Slack and meetings.
+- **Team alignment**: Shared language, artifacts, and guides that reduce friction across teams.
+- **Knowledge preservation**: Your team's operating system doesn't walk out the door when someone leaves.
 
 ---
 
-## 🚀 How to Use This System
-
-### As a New Team Member
-
-1. Start with `01-Company-Context/` to understand vision, strategy, and how decisions are made.  
-2. Browse `02-Methods-and-Tools/` to see how the team approaches discovery, prioritization, and delivery.  
-3. Bookmark key templates under `02-Methods-and-Tools/templates/` (PRDs, one-pagers, meeting agendas).  
-4. Use `03-Research-Artifacts/` to study past interviews and findings before talking to customers.  
-5. Use `04-Initiatives/` to understand what’s currently in-flight and how bets are documented.
-
-### As an Experienced PM
-
-1. Jump straight to `02-Methods-and-Tools/` for the topic you’re working on (e.g. PRDs, discovery, OKRs).  
-2. Grab the relevant **framework + guide + template + playbook** from the folders there.  
-3. Update or extend the framework when reality diverges from the theory — commit your improvements.  
-4. Keep `01-Company-Context/` updated so newcomers can self-serve context.
-
-### During Crisis or Time Pressure
-
-1. Go to the relevant **playbooks** in `02-Methods-and-Tools/playbooks/` (e.g. incidents, rollbacks, major bugs).  
-2. Use the connected **templates** (e.g. incident comms, stakeholder updates) to respond quickly.  
-3. Log any new learnings in `03-Research-Artifacts/` or the relevant framework’s guides so the system improves.
-
----
-
-## 📋 Quick Links
-
-> These are example anchor points. In a fresh clone, some may be stubs you customize for your context.
-
-### Most-Used Documents
-
-- **Sprint Planning Guide**: `02-Methods-and-Tools/guides/planning/sprint-planning.md`  
-- **PRD Template**: `02-Methods-and-Tools/templates/prds/standard-prd.md`  
-- **Prioritization Framework (Value vs Effort)**: `02-Methods-and-Tools/frameworks/prioritization/value-vs-effort.md`  
-- **Stakeholder Update Template**: `02-Methods-and-Tools/templates/comms/weekly-update.md`
-
-### Emergency Playbooks
-
-- **Product Incident Response**: `02-Methods-and-Tools/playbooks/crisis-management/incident-response.md`  
-- **Feature Rollback Process**: `02-Methods-and-Tools/playbooks/crisis-management/rollback-process.md`  
-- **Handling Major Bugs**: `02-Methods-and-Tools/playbooks/crisis-management/bug-triage.md`
-
-### Onboarding Essentials
-
-- **Team Structure & Roles Template**: `01-Company-Context/6-company-stakeholders.md`  
-- **Decision-Making Framework & Decision Rights**: `01-Company-Context/README.md` (and related strategy docs)  
-- **Key Metrics Glossary**: `01-Company-Context/5-company-roadmap.md` (or a dedicated metrics file you add)
-
----
-
-## Key Features
-
-### Structured Frameworks
-- **11 Product Management Frameworks**: From strategy to execution, covering the complete product lifecycle
-- **Decision Guide**: Quick reference to find the right framework for your situation
-- **Templates & Examples**: Ready-to-use templates for common product management tasks
-- **Mental Models**: Decision-making tools for strategic thinking and team alignment
-
-### Company Context
-- **Strategic Foundation**: Vision, strategy, principles, and roadmap documents
-- **Product Portfolio**: Current products, services, and customer segments
-- **Stakeholder Directory**: Key stakeholders and organizational structure
-- **Placeholder Templates**: Generic templates ready to be customized
-
-### Research & Discovery
-- **Research Artifacts Storage**: Organized storage for interview notes, synthesis, and findings
-- **Discovery Frameworks**: Systematic customer discovery and validation processes
-- **Opportunity Assessment**: Template for early initiative thinking
-
-### Personal Development
-- **Personal Context**: Personal notes, learnings, and development goals
-- **Career Planning**: Job search, assessments, and growth tracking
-
-## Getting Started
-
-### 1. Company Context
-Start by reviewing and customizing documents in `01-Company-Context/`:
-- Replace placeholder content with your company's actual vision, strategy, and principles
-- Update product portfolio and stakeholder information
-- See `01-Company-Context/README.md` for detailed guidance
-
-### 2. Frameworks, Methods & Tools
-Explore frameworks and methods in `02-Methods-and-Tools/`:
-- Use the guide in `02-Methods-and-Tools/README.md` to find the right framework or tool
-- Follow the flow: Early Thinking → Discovery → Define → Decide → Deliver → Launch & Learn
-- Each framework includes usage guides and templates
-
-### 3. Early Thinking
-Document early ideas in `04-Initiatives/`:
-- Use the opportunity assessment template for new initiatives
-- Move to discovery frameworks when ready to validate
-- See `04-Initiatives/README.md` for the complete process
-
-### 4. Research
-Store research outputs in `03-Research-Artifacts/`:
-- See `02-Methods-and-Tools/2.3-Discovery/2.3.1-Research-Interviews/1-interview-guide.md` for guidelines on how to conduct interviews and principles
-- Save interview notes, synthesis outputs, and research findings
-- Link research artifacts to initiatives and PRDs
-- See `03-Research-Artifacts/README.md` for organization guidelines
-
-## How Frameworks Work Together
+## 🔄 How Frameworks Work Together
 
 The frameworks follow a natural product development flow:
 
 **0. Early Thinking** (`04-Initiatives/`) → Capture initial ideas and hypotheses
 
-**1. Discover** (see discovery methods in `02-Methods-and-Tools/2.3-Discovery/` and related guides) → Interview users, observe behavior, collect stories
+**1. Discover** (`02-Methods-and-Tools/2.3-Discovery/`) → Interview users, observe behavior, collect stories
 
-**2. Define** (e.g. JTBD in `02-Methods-and-Tools/2.3-Discovery/2.3.3-Jobs-To-Be-Done/`) → Frame problems as jobs and opportunities
+**2. Define** (`02-Methods-and-Tools/2.3-Discovery/2.3.3-Jobs-To-Be-Done/`) → Frame problems as jobs and opportunities
 
-**3. Decide** (e.g. idea validation in `02-Methods-and-Tools/2.3-Discovery/2.3.4-Idea-Validation/`) → Generate solutions and validate assumptions
+**3. Decide** (`02-Methods-and-Tools/2.3-Discovery/2.3.4-Idea-Validation/`) → Generate solutions and validate assumptions
 
-**4. Deliver** (e.g. PRD templates in `02-Methods-and-Tools/2.1-Strategy/2.1.4-PRD/`) → Write requirements and build
+**4. Deliver** (`02-Methods-and-Tools/2.1-Strategy/2.1.4-PRD/`) → Write requirements and build
 
-**5. Launch & Learn** (e.g. OKR/roadmap methods in `02-Methods-and-Tools/2.1-Strategy/2.1.2-OKR/` and `2.1.3-Roadmap/`) → Measure outcomes and iterate
+**5. Launch & Learn** (`02-Methods-and-Tools/2.1-Strategy/2.1.2-OKR/` and `2.1.3-Roadmap/`) → Measure outcomes and iterate
 
-## Usage Guidelines
+---
 
-### Daily Work
-1. **Morning Review**: Check current initiatives and priorities
-2. **Framework Selection**: Use decision guide to find the right framework
-3. **AI Assistance**: Leverage AI copilot for context-aware support
-4. **Documentation**: Update relevant documents with new insights
+## 📋 Quick Start Guides
 
-### Product Development
-1. **Start with Context**: Review company vision, strategy, and principles
-2. **Early Thinking**: Document ideas in `04-Initiatives/`
-3. **Discovery**: Use discovery frameworks to validate assumptions
-4. **Define & Decide**: Frame problems and validate solutions
-5. **Deliver**: Write PRDs and execute
-6. **Learn**: Measure outcomes and iterate
+### As a New Team Member
 
-### Continuous Improvement
-1. **Regular Reviews**: Update company context and personal learnings
-2. **Framework Refinement**: Improve processes based on experience
-3. **Knowledge Sharing**: Share insights and best practices
-4. **Template Updates**: Refine templates based on usage
+1. Start with `01-Company-Context/` to understand vision, strategy, and how decisions are made.
+2. Browse `02-Methods-and-Tools/` to see how the team approaches discovery, prioritization, and delivery.
+3. Study past research in `03-Research-Artifacts/` before talking to customers.
+4. Review `04-Initiatives/` to understand what's currently in-flight and how bets are documented.
 
-## Directory Overview
+### As an Experienced PM
+
+1. Jump straight to `02-Methods-and-Tools/` for the topic you're working on (e.g., PRDs, discovery, OKRs).
+2. Grab the relevant **framework + guide + template** from the folders there.
+3. Update or extend the framework when reality diverges from theory — commit your improvements.
+4. Keep `01-Company-Context/` updated so newcomers can self-serve context.
+
+### During Crisis or Time Pressure
+
+1. Go to the relevant framework in `02-Methods-and-Tools/` (e.g., `2.2-Communication/2.2.4-Crisis-Management/` for incidents).
+2. Use the connected guides and templates to respond quickly.
+3. Log any new learnings in the relevant framework's guides so the system improves.
+
+---
+
+## 📁 Directory Overview
 
 ### 01-Company-Context
 Foundational documents that provide strategic direction. These should be the outcome of actual strategic work. See `01-Company-Context/README.md` for the complete structure and numbering logic.
@@ -275,49 +218,52 @@ Storage for research outputs and artifacts from discovery activities. This is st
 ### 04-Initiatives
 Early thinking and opportunity assessment before you have evidence. Use the opportunity assessment template to document hypotheses. See `04-Initiatives/README.md` for the complete template and process.
 
-***Optional***
-### 08-Prototypes
+### 08-Prototypes *(optional)*
 Prototype implementations and experimental projects.
 
-### 09-Personal-Context
+### 09-Personal-Context *(optional)*
 Personal development notes, learnings, assessments, and career planning. In a public or shared repo, keep sensitive content in a private fork or private repo.
 
+---
 
-
-## Maintenance
+## 🔧 Maintenance
 
 ### Living Document Principle
 
-- **Update when you use it**: If you spot gaps or outdated steps while working, fix them in the repo.  
-- **Let git be the changelog**: Use clear commit messages instead of separate change logs.  
-- **Prefer improvements over TODOs**: Avoid permanent “TODO” sections — make the change or capture it in an issue/backlog file.
+- **Update when you use it**: If you spot gaps or outdated steps while working, fix them in the repo.
+- **Let git be the changelog**: Use clear commit messages instead of separate change logs.
+- **Prefer improvements over TODOs**: Avoid permanent "TODO" sections — make the change or capture it in an issue/backlog file.
 
 ### Suggested Review Cadence
 
-- **Weekly**: Update current initiatives and progress in `04-Initiatives/`.  
-- **Monthly**: Review and update key frameworks, guides, and templates you touched.  
-- **Quarterly**: Revisit `01-Company-Context/` (strategy, roadmap, OKRs).  
+- **Weekly**: Update current initiatives and progress in `04-Initiatives/`.
+- **Monthly**: Review and update key frameworks, guides, and templates you touched.
+- **Quarterly**: Revisit `01-Company-Context/` (strategy, roadmap, OKRs).
 - **Annually**: Do a higher-level cleanup of folder structure and archive stale experiments.
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 This repository is designed as a **template PM operating system**. There are two main ways to use it:
 
-1. **Fork and customize privately** (recommended for real company context).  
+1. **Fork and customize privately** (recommended for real company context).
 2. **Contribute improvements back** to the public template (for generic frameworks, guides, and patterns).
 
 When contributing to this public repo:
 
-1. **Maintain structure**: Follow the established folder and naming conventions.  
-2. **Keep examples generic**: Don’t add proprietary or sensitive company information.  
-3. **Document changes**: Use clear commit messages (what changed, why it changed, who it’s for).  
-4. **Share learnings**: When you add a new guide or playbook, mention the scenarios it’s meant to handle.  
+1. **Maintain structure**: Follow the established folder and naming conventions.
+2. **Keep examples generic**: Don't add proprietary or sensitive company information.
+3. **Document changes**: Use clear commit messages (what changed, why it changed, who it's for).
+4. **Share learnings**: When you add a new guide or playbook, mention the scenarios it's meant to handle.
 5. **Respect placeholders**: Use placeholders and comments where teams need to plug in their own context.
 
 ---
 
-## License
+*⭐ Star this repo if you find it useful • 🔀 Fork it to customize for your team*
+
+---
+
+## 📄 License
 
 This project is licensed under the **MIT License**. See `LICENSE` for details.
