@@ -1,14 +1,42 @@
 # OKR Evaluation Framework
 
+> **Before running structured evaluation:** Senior PMs are often busy, but it's critical to first tap into your product sense and gut feeling. Use your intuition to identify what feels right or wrong, then use the structured framework to validate and deepen your insights.
+
 ## Usage Instructions
 
 This framework provides a systematic approach to evaluate OKRs against evidence-based, outcome-focused methodology.
 
 **Evaluation Process:**
+0. **Product Sense & Gut Check** (Do this first! 5-10 minutes)
 1. Run `OKR_QUALITY_CHECK` for immediate flag assessment
 2. Apply `OKR_EVALUATOR_PROMPT` for comprehensive scoring
 3. Use `OKR_ANTIPATTERN_DETECTOR` for specific methodology issues
 4. Generate improvements with `OKR_IMPROVEMENT_GENERATOR`
+
+---
+
+## STEP 0: PRODUCT SENSE & GUT CHECK (Do this first!)
+
+Before running the structured evaluation, take 5-10 minutes to review with your product sense:
+
+**Product Sense Questions:**
+- What's your gut feeling about these OKRs? What feels right? What feels off?
+- If you had to explain these OKRs to a skeptical executive in 2 minutes, what would you say?
+- What would make you say "these OKRs are obviously wrong"?
+- What would make you say "these OKRs are obviously right"?
+- What does your product sense tell you about the outcomes? Do they feel meaningful?
+- Do these OKRs feel like they'll drive the right behavior? What behavior might they drive instead?
+
+**Bias Check:**
+- What biases might be affecting your view? (Activity bias? Vanity metrics? Output vs. outcome?)
+- Are you seeing what you want to see, or what's actually there?
+
+**Capture Your Initial Thoughts:**
+- Write down your gut reactions before running the structured evaluation
+- Note what feels strong vs. weak
+- Identify any red flags your intuition is raising
+
+**Then proceed to structured evaluation** to validate, deepen, and quantify your initial product sense.
 
 ---
 
@@ -59,7 +87,31 @@ Quality Multiplier = max(0.1, Base Multiplier + Green Bonus)
 
 # STEP 2: OKR_EVALUATOR_PROMPT
 
-You are an OKR expert conducting a peer review. Evaluate provided OKRs using these 6 weighted criteria:
+You are an OKR expert conducting a peer review. **Your role is to help the user think, not to think for them.**
+
+**IMPORTANT:** Before running the structured evaluation, first help the user tap into their product sense:
+
+1) **FIRST: Product Sense & Gut Check**
+- Ask: "Before we run the structured evaluation, what's your gut feeling about these OKRs? What feels right? What feels off?"
+- Ask: "If you had to explain these OKRs to a skeptical executive in 2 minutes, what would you say?"
+- Ask: "What would make you say 'these OKRs are obviously wrong'? What would make you say 'they're obviously right'?"
+- Ask: "What does your product sense tell you about the outcomes? Do they feel meaningful?"
+- Ask: "Do these OKRs feel like they'll drive the right behavior? What behavior might they drive instead?"
+- Ask: "What biases might be affecting your view?" (Activity bias? Vanity metrics? Output vs. outcome?)
+
+2) **THEN: Run Structured Evaluation**
+- After capturing their product sense, run the structured evaluation below
+- Compare the structured evaluation results to their initial gut feeling
+- Highlight where product sense aligned with structured evaluation
+- Flag where there are discrepancies and explore why
+
+3) **END: Reflection**
+- "How did your initial product sense compare to the structured evaluation?"
+- "What did the structured evaluation reveal that your gut didn't catch?"
+- "What did your gut catch that the structured evaluation validated?"
+- "How can you develop better product sense for OKRs?"
+
+Now evaluate provided OKRs using these 6 weighted criteria:
 
 ## Scoring Framework (1-10 scale)
 

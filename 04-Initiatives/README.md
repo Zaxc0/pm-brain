@@ -2,10 +2,10 @@
 
 ## Introduction
 
-This directory is your starting point for capturing early initiative thinking before you have evidence. Use the opportunity assessment template to document hypotheses, assumptions, and initial ideas. Once you have enough clarity, move to the discovery frameworks in `../02-Methods-and-Tools/frameworks/discovery/` to validate your thinking with evidence.
+This directory is your starting point for capturing early initiative thinking before you have evidence. Use the opportunity assessment template (based on the framework in `../02-Methods-and-Tools/2.3-Discovery/2.3.4-Opportunity-Assessment/`) to document hypotheses, assumptions, and initial ideas. Once you have enough clarity, move to the discovery frameworks in `../02-Methods-and-Tools/2.3-Discovery/` to validate your thinking with evidence.
 
 **This is for:** Early ideas, hypotheses, and initial opportunity assessments  
-**When ready:** Move to discovery methods in `../02-Methods-and-Tools/frameworks/discovery/` for evidence-based discovery
+**When ready:** Move to discovery methods in `../02-Methods-and-Tools/2.3-Discovery/` for evidence-based discovery
 
 ## How This Relates to Frameworks
 
@@ -14,12 +14,13 @@ This directory is your starting point for capturing early initiative thinking be
 - Document what you know vs. what needs research
 - Identify key questions to validate
 
-**Discovery Frameworks (`../02-Methods-and-Tools/`):**
-- Validate assumptions with user interviews (see `guides/research/`)
-- Synthesize patterns from evidence (see `templates/research/`)
-- Create evidence-based opportunities (see `frameworks/discovery/`)
-- Generate and validate solutions (see `frameworks/prioritization/` and validation guides)
-- Write PRDs (see `templates/prds/`)
+**Discovery Frameworks (`../02-Methods-and-Tools/2.3-Discovery/`):**
+- Use `2.3.4-Opportunity-Assessment/` to structure your opportunity assessment (this template is based on that framework)
+- Validate assumptions with user interviews (see `2.3.1-Research-Interviews/`)
+- Synthesize patterns from evidence (see `2.3.2-Continuous-Discovery-Habits/`)
+- Frame problems as jobs (see `2.3.3-Jobs-To-Be-Done/`)
+- Generate and validate solutions (see `2.3.5-Idea-Validation/`)
+- Write PRDs (see `../2.1-Strategy/2.1.4-PRD/`)
 
 **The Flow:**
 1. Start here with opportunity assessment (early thinking)
@@ -47,10 +48,16 @@ Use this to get unstuck fast, challenge assumptions, and move from thoughts → 
 ### Reusable prompt (copy-paste)
 
 ```markdown
-Act as a product management coach for [you] at [company]. We’ll work iteratively and challenge assumptions. Keep mixed language 
-if I write in Danish/English; translate critical highlights to English.
+Act as a product management coach for [you] at [company]. We'll work iteratively and challenge assumptions. Your role is to help me think, not to think for me. I may switch between multiple languages (e.g. [Primary Language] and English). Keep content, quotes, and context in the original language, but translate important highlights to English when helpful. If I use mixed language, maintain it unless I ask you to standardize.
 
-1) Quiz me section-by-section on:
+0) FIRST: Help me braindump (don't structure yet):
+- Ask me to dump everything I know about this initiative - thoughts, concerns, ideas, gut feelings
+- Don't ask me to structure it yet. Just get it all out.
+- Ask: "What's your product sense telling you? What feels right or wrong?"
+- Ask: "What assumptions are you making? List them all."
+- Ask: "What biases might be affecting your view?" (Confirmation bias? Solution bias? Sunk cost?)
+
+1) THEN: Quiz me section-by-section on:
 - Objective
 - Target customer
 - Success metrics
@@ -62,19 +69,24 @@ if I write in Danish/English; translate critical highlights to English.
 - Links & artifacts
 
 2) For each section:
-- Ask 3–7 sharp questions.
-- Propose initial draft answers based on my notes; clearly mark gaps as [to fill].
+- DON'T just ask me to paste notes. First ask: "Before looking at your notes, what do you think about [section]? What's your gut feeling?"
+- Ask 3–7 sharp questions that make me think.
+- Challenge my thinking: "What biases might be affecting this? What would someone with different product sense say?"
+- Help me use my product sense: "What does your intuition tell you here? What feels off?"
+- Only then propose initial draft answers based on my notes; clearly mark gaps as [to fill].
 - Challenge assumptions and call out confidence (High/Med/Low).
 - Suggest 1–3 fast experiments or research tasks with effort/impact.
 - Keep answers concise and skimmable.
 
 3) End each pass with:
+- Ask me to reflect: "What did you learn? How did your thinking evolve? What surprised you?"
 - Updated section summaries
 - Top 3 decision points
 - Next 3 actions with owners/dates placeholders
 - A minimal decision log entry if we made a call
+- Self-reflection: "What biases did you catch? What would you do differently?"
 
-I’ll paste my notes now. Start with “Objective”.
+I'll paste my notes now. But first, help me braindump.
 ```
 
 ### How to use it
@@ -131,9 +143,9 @@ pm-brain/04-Initiatives/
 1. **Start Early**: Create opportunity assessment when you have an initial idea or hypothesis
 2. **Document What You Know**: Fill out sections with current knowledge; mark unknowns explicitly
 3. **Identify Research Needs**: Use "What we should research" section to plan validation
-4. **Move to Discovery**: When ready, use discovery methods in `../02-Methods-and-Tools/frameworks/discovery/` (and related guides/templates) to validate assumptions
+4. **Move to Discovery**: When ready, use discovery methods in `../02-Methods-and-Tools/2.3-Discovery/` to validate assumptions. Start with `2.3.4-Opportunity-Assessment/` framework (this template is based on that framework)
 5. **Update as You Learn**: Return to update opportunity assessment with new evidence
-6. **Transition to Execution**: When validated, create PRD using templates in `../02-Methods-and-Tools/templates/prds/` and roadmap documents
+6. **Transition to Execution**: When validated, create PRD using templates in `../02-Methods-and-Tools/2.1-Strategy/2.1.4-PRD/` and roadmap documents
 
 ## How to Maintain
 

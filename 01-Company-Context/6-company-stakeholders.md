@@ -19,8 +19,11 @@ This file is optimized for both human reference and AI/LLM parsing.
 **Example:**
 | Name | Title | Role/Function | Level/Position | Reports To | Nickname | Email |
 |------|-------|---------------|----------------|------------|----------|-------|
-| [Name] | Product Manager | Product | Manager | [Head of Product] | | |
-| [Name] | Senior Product Designer | Product Design | Senior Designer | [Head of Product] | | |
+| Sarah Johnson | VP Product & Engineering | Product & Engineering Leadership | Executive | Robert Thompson | | |
+| Michael Chen | Director, Head of Product | Product Management | Director | Sarah Johnson | | |
+| Emma Williams | Director, Business Strategy | Business Strategy | Director | Sarah Johnson | | |
+| David Martinez | Engineering Manager, Platform | Software Engineering | Manager | Christopher Brown | | |
+| James Anderson | Principal Software Engineer | Software Engineering | Principal Engineer | David Martinez | | |
 
 ---
 
@@ -36,14 +39,11 @@ This file is optimized for both human reference and AI/LLM parsing.
 **Example:**
 | Name | Title | Role/Function | Level/Position | Reports To | Nickname | Email |
 |------|-------|---------------|----------------|------------|----------|-------|
-| [Name] | CIO, VP Head of Technology | Technology Leadership | Executive | - | | |
-| [Name] | Director, Head of Product & Delivery | Product & Delivery Management | Director | [CIO Name] | | |
-| [Name] | Manager, Head of Product | Product Management | Manager | [Director Name] | | |
-| [Name] | Product Manager | Product | Manager | [Head of Product] | | |
-| [Name] | Senior Product Designer | Product Design | Senior Designer | [Head of Product] | | |
-| [Name] | Enterprise Architect | Enterprise Architecture | Architect | [Head of Architecture] | | |
-| [Name] | Data Engineer | Data Engineering | Engineer | [Head of Data Platform] | | |
-| [Name] | Senior Software Developer | Software Development | Senior Developer | [Head of Engineering] | | |
+| Robert Thompson | CTO, VP Technology | Technology Leadership | Executive | - | | |
+| Jennifer Lee | Director, Head of Product | Product Management | Director | Sarah Johnson | | |
+| Christopher Brown | Director, Head of Engineering | Software Engineering | Director | Sarah Johnson | | |
+| Lisa Garcia | Senior Product Manager | Product Management | Senior Manager | Jennifer Lee | | |
+| Thomas Wilson | Principal Software Engineer | Software Engineering | Principal Engineer | David Martinez | | |
 
 ---
 

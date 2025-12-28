@@ -48,5 +48,7 @@ A comprehensive guide for product managers and product owners to create stakehol
 - Archive: keep `YYYY-MM.md` files per BU under company context
 
 ## Links
-- Template: `./newsletter-template.md`
-- Company newsletters: `../../company level context/newsletters/README.md`
+- Template: `./2-newsletter-template.md`
+- Company Context: `../../01-Company-Context/README.md`
+- OKR Framework: `../../2.1-Strategy/2.1.2-OKR/README.md`
+- Roadmap Framework: `../../2.1-Strategy/2.1.3-Roadmap/README.md`

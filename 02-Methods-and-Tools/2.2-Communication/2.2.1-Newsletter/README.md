@@ -16,13 +16,13 @@ Use these templates and guidelines to produce monthly, stakeholder-friendly news
 - Exploratory work before clear progress emerges
 
 ## Files
-- `2.4.1-newsletter-framework.md` — Structure, cadence, targeting, and quality checklist
-- `2.4.2-newsletter-template.md` — Fill-in template with helper text and examples
+- `1-newsletter-framework.md` — Structure, cadence, targeting, and quality checklist
+- `2-newsletter-template.md` — Fill-in template with helper text and examples
 
 ## How to Use This Framework
 
-1. **Review Framework**: Read `2.4.1-newsletter-framework.md` for structure and best practices
-2. **Use Template**: Start with `2.4.2-newsletter-template.md` for your monthly issue
+1. **Review Framework**: Read `1-newsletter-framework.md` for structure and best practices
+2. **Use Template**: Start with `2-newsletter-template.md` for your monthly issue
 3. **Link to Work**: Reference OKRs, roadmap items, and key decisions
 4. **Keep It Concise**: One page maximum; link out to detailed documents
 5. **Publish Monthly**: Save in appropriate business unit folder
@@ -35,6 +35,7 @@ Use these templates and guidelines to produce monthly, stakeholder-friendly news
 
 ## Links
 - Company Context: `../../01-Company-Context/README.md`
-- Product Strategy: `../2.1-Product-Strategy/README.md`
-- Roadmap: `../2.3-Roadmap/README.md`
-- OKR Framework: `../2.2-OKR/README.md`
+- Product Strategy: `../../2.1-Strategy/2.1.1-Product-Strategy/README.md`
+- Roadmap: `../../2.1-Strategy/2.1.3-Roadmap/README.md`
+- OKR Framework: `../../2.1-Strategy/2.1.2-OKR/README.md`
+- PRD Framework: `../../2.1-Strategy/2.1.4-PRD/README.md`

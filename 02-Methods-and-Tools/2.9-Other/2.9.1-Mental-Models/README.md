@@ -18,7 +18,7 @@ This framework contains essential mental models and decision-making tools for pr
 - Document creation and execution
 
 ## Files
-- `2.11.1-mental-models.md` — Complete mental models collection including Pre-mortems, 60-30-10, 3 Levels, 0-1 vs 1-100, One-Way/Two-Way Doors, Alignment Check, and Assumptions Framework
+- `1-mental-models.md` — Complete mental models collection including Pre-mortems, 60-30-10, 3 Levels, 0-1 vs 1-100, One-Way/Two-Way Doors, Alignment Check, and Assumptions Framework
 
 ## How to Use This Framework
 
@@ -38,5 +38,8 @@ This framework contains essential mental models and decision-making tools for pr
 - Product Strategy: `../../2.1-Strategy/2.1.1-Product-Strategy/README.md`
 - OKR Framework: `../../2.1-Strategy/2.1.2-OKR/README.md`
 - Roadmap Framework: `../../2.1-Strategy/2.1.3-Roadmap/README.md`
-- Idea Validation: `../../2.3-Discovery/2.3.4-Idea-Validation/README.md`
+- PRD Framework: `../../2.1-Strategy/2.1.4-PRD/README.md`
+- Opportunity Assessment: `../../2.3-Discovery/2.3.4-Opportunity-Assessment/README.md`
+- Idea Validation: `../../2.3-Discovery/2.3.5-Idea-Validation/README.md`
+- Self-Reflection: `../2.9.2-Self-Reflection/README.md`
 

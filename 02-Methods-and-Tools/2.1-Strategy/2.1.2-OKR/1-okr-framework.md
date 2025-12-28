@@ -79,9 +79,11 @@ Keep 1–2 Objectives per team; 2–4 KRs per Objective.
 - Strengthen governance and compliance for key product decisions.
 
 ## References
-- Templates: `./2.2.2-okr-template.md`
+- Templates: `./2-okr-template.md`
 - Company Context: `../../01-Company-Context/README.md`
-- Product Strategy: `../2.1-Product-Strategy/`
-- Roadmap: `../2.3-Roadmap/`
+- Product Strategy: `../2.1.1-Product-Strategy/`
+- Roadmap: `../2.1.3-Roadmap/`
+- PRD Framework: `../2.1.4-PRD/`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/`
 
 

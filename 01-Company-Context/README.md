@@ -88,5 +88,6 @@ I'll start by telling you which parts of our company context feel most unclear r
 - Roadmap: see `../02-Methods-and-Tools/2.1-Strategy/2.1.3-Roadmap/`
 - OKRs: see `../02-Methods-and-Tools/2.1-Strategy/2.1.2-OKR/`
 - Personas: see `../02-Methods-and-Tools/2.1-Strategy/2.1.5-Personas/`
+- Self-Reflection: see `../02-Methods-and-Tools/2.9-Other/2.9.2-Self-Reflection/`
 
 

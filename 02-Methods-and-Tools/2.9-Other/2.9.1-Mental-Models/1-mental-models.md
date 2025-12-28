@@ -133,6 +133,6 @@ A diagnostic for understanding the root cause of product disagreements and build
 
 - **Strategic Planning**: Use with `../../2.1-Strategy/2.1.1-Product-Strategy/` for strategy development
 - **Team Alignment**: Use with `../../2.1-Strategy/2.1.2-OKR/` when setting objectives
-- **Decision Making**: Use with `../../2.3-Discovery/2.3.4-Idea-Validation/` for validation decisions
+- **Decision Making**: Use with `../../2.3-Discovery/2.3.4-Opportunity-Assessment/` for opportunity decisions and `../../2.3-Discovery/2.3.5-Idea-Validation/` for validation decisions
 - **Roadmap Planning**: Use with `../../2.1-Strategy/2.1.3-Roadmap/` for prioritization
 

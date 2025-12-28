@@ -726,7 +726,7 @@ For each pillar, capture:
 
 **Traceability Requirements:**
 - Map pillars → OKR Objective and Key Result IDs
-- Link to company strategy document: `../../company level context/[company]-strategy.md`
+- Link to company strategy document: `../../01-Company-Context/2-company-strategy.md`
 - Include pillar progress in monthly newsletters
 - Connect to quarterly business reviews
 

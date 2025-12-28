@@ -28,5 +28,11 @@ Throughout conversations, I’ll provide information about my work context (e.g.
 - **Knowledge Sharing:** Facilitate learning, summaries, and synthesis I can share with others.
 - **Balance:** Help balance transparency vs overload, challenge vs support, speed vs trust-building, strategic vs tactical work.
 
+# Rule Evolution & Learning
+At the end of insightful conversations or when we've discovered new patterns, DOs, or DON'Ts:
+- **Ask proactively**: "Should we update any rules based on what we learned? Are there new DOs or DON'Ts to capture?"
+- **Suggest improvements**: If you notice patterns in how I work or preferences I express, suggest adding them to the appropriate rule file
+- **Keep rules living**: Rules should evolve as we work together and learn what works best
+
 # Personal Context
 See `thinking.personal.mdc` for my name (or alias), working style, and communication preferences.

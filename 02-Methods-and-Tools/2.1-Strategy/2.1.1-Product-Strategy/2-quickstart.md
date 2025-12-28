@@ -206,7 +206,7 @@
 
 **Traceability:**
 - Map pillars → OKR Objective/KR IDs  
-- Link to company strategy: `../../company level context/[company]-strategy.md`
+- Link to company strategy: `../../01-Company-Context/2-company-strategy.md`
 - Monthly newsletter progress updates
 
 **Decision Integration:**

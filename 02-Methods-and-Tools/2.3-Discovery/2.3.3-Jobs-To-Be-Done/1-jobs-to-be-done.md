@@ -126,15 +126,45 @@ When [situation], I want to [progress], so I can [outcome].
 - **Persona lock-in:** Jobs often cut across personas; segment by situation/context.
 
 ## LLM Helper Prompts
-- “Extract job stories, forces of progress, and outcome statements from these interview notes.”
-- “Rewrite this job statement to be solution-agnostic and context-specific.”
-- “Generate 10 ODI-style outcomes for this job and propose importance/satisfaction questions.”
-- “Compute opportunity scores from this survey data and rank outcomes.”
-- “Propose riskiest assumptions and minimal tests linked to this job’s top outcome gaps.”
+
+**Before mapping jobs - Braindump & Think:**
+```markdown
+Act as a product management coach. Help me think through customer jobs before we structure them. Your role is to help me think, not to think for me.
+
+1) FIRST: Help me braindump (don't structure yet):
+- Ask me to dump everything I think I know about what customers are trying to do
+- Don't ask me to structure it yet. Just get it all out.
+- Ask: "What does your product sense tell you? What feels like the real job?"
+- Ask: "What biases might be affecting your view?" (Feature bias? Solution bias?)
+- Ask: "If you had to explain the customer's job in one sentence, what would it be?"
+
+2) THEN: Help me identify jobs:
+- "Before looking at interview notes, what do you think customers are trying to accomplish?"
+- "What would make you say 'this is obviously not the job'?"
+- "What would make you say 'this is obviously the job'?"
+- "What does your product sense tell you about the real job here?"
+
+3) THEN: Help me structure:
+- Only after I've thought through it, help me extract and structure job statements
+- Challenge my thinking: "Why this job? What evidence supports it?"
+- Help me use my product sense: "What does your intuition tell you about this job?"
+
+4) END with reflection:
+- "How did your understanding of the job evolve?"
+- "What biases did you catch? What would you do differently?"
+```
+
+**After braindump - Job mapping:**
+- "Extract job stories, forces of progress, and outcome statements from these interview notes."
+- "Rewrite this job statement to be solution-agnostic and context-specific."
+- "Generate 10 ODI-style outcomes for this job and propose importance/satisfaction questions."
+- "Compute opportunity scores from this survey data and rank outcomes."
+- "Propose riskiest assumptions and minimal tests linked to this job's top outcome gaps."
 
 ## Cross-Framework Navigation
 - Start with: interview snapshots → `../2.3.2-Continuous-Discovery-Habits/1-create-interview-snapshot.md`
 - Find patterns → `../2.3.2-Continuous-Discovery-Habits/2-synthesize-interview-snapshots.md`
 - Frame opportunities → `../2.3.2-Continuous-Discovery-Habits/3-create-opportunities.md`
 - Generate solutions → `../2.3.2-Continuous-Discovery-Habits/4-generate-solutions.md`
-- Validate assumptions → `../2.3.4-Idea-Validation/1-idea-validation.md`
+- Assess opportunities → `../2.3.4-Opportunity-Assessment/1-opportunity-assessment-framework.md`
+- Validate assumptions → `../2.3.5-Idea-Validation/1-idea-validation.md`

@@ -1,17 +1,28 @@
 # 🧠 PM Brain-as-Code
 
-> **Your external product management brain. Single source of truth: latest commit.**
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![GitHub stars](https://img.shields.io/github/stars/andreaskelm/pm-brain?style=social)](https://github.com/andreaskelm/pm-brain) [![GitHub forks](https://img.shields.io/github/forks/andreaskelm/pm-brain?style=social)](https://github.com/andreaskelm/pm-brain/fork)
 
-**The pain:** PM frameworks are everywhere. Operational execution guides are not. You know the theory, but when you need to run sprint planning in 30 minutes, write a strategy document by EOD, or onboard someone fast — you're starting from scratch every time.
+> **Your external product management brain. Single source of truth = latest commit.**
 
-**This repo:** Operational infrastructure for product management. Copy-paste frameworks and templates for the messy reality of product work — not the idealized version. Git-versioned, documented, ready to use.
+A living knowledge base that bridges the gap between Product Management frameworks and actual operational execution. Git-versioned, shareable, ready to use.
 
-- **🧭 Frameworks** – decision models and methods that actually help you choose what to do next  
-- **📋 Step-by-step guides** – checklists and how-tos for running key rituals and processes  
-- **📄 Copy-paste templates** – PRDs, one-pagers, roadmaps, communication, and more, ready to fill in  
-- **🚨 Scenario playbooks** – what to do when things go sideways (incidents, tough conversations, tradeoffs)  
-- **🏢 Company context** – vision, strategy, principles, portfolio, roadmap, and stakeholders that don't go stale  
-- **🤖 Prompt libraries** – structured thinking prompts for AI tools (ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, etc.)
+**Product teams drown in blog posts and frameworks** but don't know *how* to run sprint planning on Tuesday morning or write a strategy document by end-of-day. This gives you battle-tested guides, templates, and playbooks. Single source of truth = latest commit. Built for everyone from junior PMs to senior leads.
+
+🚀 **Get started:** clone the repo → add your context → start shipping
+
+**Quick links:** [Quick Start](#-how-to-get-started) · [What's Inside](#-whats-inside) · [Structure](#-system-structure-philosophy) · [Daily Workflow](#-daily-workflow)
+
+## 📦 What's Inside
+
+```text
+📦 PM Brain-as-Code
+├── 🧭 Frameworks: decision models and methods that actually help you choose what to do next  
+├── 📋 Step-by-step guides: checklists and how-tos for running key rituals and processes  
+├── 📄 Copy-paste templates: PRDs, one-pagers, roadmaps, communication, and more, ready to fill in  
+├── 🚨 Scenario playbooks: what to do when things go sideways (incidents, tough conversations, tradeoffs)  
+├── 🏢 Company context: vision, strategy, principles, portfolio, roadmap, and stakeholders that don't go stale  
+└── 🤖 Prompt libraries: structured thinking prompts for AI tools (ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, etc.)
+```
 
 **Single Source of Truth:** Latest commit = current reality. No stale documents in Notion, SharePoint or Confluence that nobody updates.  
 
@@ -29,12 +40,20 @@
    - `03-Research-Artifacts/` – for research storage structure
    - `04-Initiatives/` – for opportunity assessments and initiative planning
 
-2. **Copy** the relevant README + template files.
+2. **Before using templates: Braindump first**
+   - Don't jump straight to filling templates. Start by dumping your thoughts, ideas, and concerns.
+   - Use the braindumping prompts in each framework to capture your raw thinking first.
+   - Let your product sense and intuition guide initial thoughts before structuring them.
 
-3. **Paste** into your AI chat session with a prompt like:
+3. **Copy** the relevant README + template files.
+
+4. **Paste** into your AI chat session with a prompt like:
    ```
    Here's the structure I use for [product strategy / PRDs / OKRs / etc.].
-   Help me fill it out / adapt it for [my context].
+   
+   First, help me braindump my thoughts on [topic]. Quiz me, challenge my assumptions, and help me think through this before we structure it.
+   
+   Then help me fill it out / adapt it for [my context].
    ```
 4. **Save for reuse** (recommended):
    - Upload files to your AI tool's project feature (ChatGPT's "My GPTs", Claude's "Projects", etc.)
@@ -51,11 +70,14 @@
    cd pm-brain
    ```
 
-   2. **Plug in your context:**
+2. **Plug in your context:**
    - Replace placeholders in `01-Company-Context/` with your actual vision, strategy, principles
    - Customize templates in `02-Methods-and-Tools/` for your workflows
 
-3. **Start using:**
+3. **Start using (think first, structure second):**
+   - **Braindump before structuring**: Use the braindumping prompts in each framework to capture your raw thoughts first
+   - **Develop product sense**: Use the product sense exercises and reflection prompts to build judgment
+   - **Think critically**: Let frameworks guide your thinking, not replace it. Answer the quiz questions honestly.
    - Use frameworks and guides in `02-Methods-and-Tools/` for daily work
    - Store research in `03-Research-Artifacts/`
    - Document initiatives in `04-Initiatives/`
@@ -85,12 +107,29 @@ pm-brain/
 └── 09-Personal-Context/       # 🧑 Personal notes (keep sensitive content in private fork)
 ```
 
-### Daily Workflow
+## 🔄 Daily Workflow
 
 1. **Reference** `01-Company-Context/` for strategic direction and company information.
 2. **Use** `02-Methods-and-Tools/` when you need a process, framework, template, or playbook.
 3. **Store** research outputs in `03-Research-Artifacts/` after completing discovery work.
 4. **Do** your active product work in `04-Initiatives/` (planning, documenting, iterating).
+
+### How Frameworks Work Together
+
+The frameworks follow a natural product development flow:
+
+**0. Early Thinking** (`04-Initiatives/`) → Capture ideas and hypotheses
+
+**1. Discover** (`2.3-Discovery/`) → Interview users, observe behavior, collect stories
+
+**2. Define** (`2.3.3-Jobs-To-Be-Done/`) → Frame problems as jobs and opportunities
+
+**3. Assess** (`2.3.4-Opportunity-Assessment/`) → Document and assess opportunities
+**4. Decide** (`2.3.5-Idea-Validation/`) → Generate solutions and validate assumptions
+
+**5. Deliver** (`2.1.4-PRD/`) → Write requirements and build
+
+**6. Launch & Learn** (`2.1.2-OKR/` and `2.1.3-Roadmap/`) → Measure outcomes and iterate
 
 ---
 
@@ -118,8 +157,8 @@ Content is organized by **domain** and **numbered frameworks**:
 │   ├── 2.3.1-Research-Interviews/
 │   ├── 2.3.2-Continuous-Discovery-Habits/
 │   ├── 2.3.3-Jobs-To-Be-Done/
-│   ├── 2.3.4-Idea-Validation/
-│   └── 2.3.9-Opportunity-Assessment (placeholder)
+│   ├── 2.3.4-Opportunity-Assessment/
+│   └── 2.3.5-Idea-Validation/
 └── 2.9-Other/               # Mental models and supporting methods
     └── 2.9.1-Mental-Models/
 ```
@@ -131,7 +170,8 @@ Content is organized by **domain** and **numbered frameworks**:
 - Research interviews: `2.3-Discovery/2.3.1-Research-Interviews/`
 - Continuous discovery: `2.3-Discovery/2.3.2-Continuous-Discovery-Habits/`
 - Jobs-to-be-Done: `2.3-Discovery/2.3.3-Jobs-To-Be-Done/`
-- Idea validation: `2.3-Discovery/2.3.4-Idea-Validation/`
+- Opportunity assessment: `2.3-Discovery/2.3.4-Opportunity-Assessment/`
+- Idea validation: `2.3-Discovery/2.3.5-Idea-Validation/`
 
 See `02-Methods-and-Tools/README.md` for complete navigation guide.
 
@@ -156,24 +196,6 @@ See `02-Methods-and-Tools/README.md` for complete navigation guide.
 
 ---
 
-## 🔄 How Frameworks Work Together
-
-The frameworks follow a natural product development flow:
-
-**0. Early Thinking** (`04-Initiatives/`) → Capture ideas and hypotheses
-
-**1. Discover** (`2.3-Discovery/`) → Interview users, observe behavior, collect stories
-
-**2. Define** (`2.3.3-Jobs-To-Be-Done/`) → Frame problems as jobs and opportunities
-
-**3. Decide** (`2.3.4-Idea-Validation/`) → Generate solutions and validate assumptions
-
-**4. Deliver** (`2.1.4-PRD/`) → Write requirements and build
-
-**5. Launch & Learn** (`2.1.2-OKR/` and `2.1.3-Roadmap/`) → Measure outcomes and iterate
-
----
-
 ## 📋 Quick Start Guides
 
 **New Team Member:**
@@ -191,23 +213,7 @@ The frameworks follow a natural product development flow:
 **Crisis or Time Pressure:**
 1. Go to relevant framework in `02-Methods-and-Tools/` (e.g., `2.2.4-Crisis-Management/`)
 2. Use connected guides and templates to respond quickly
-3. Log learnings in framework guides to improve the syste
-
----
-
-## 📁 Directory Overview
-
-**01-Company-Context** – Strategic foundation documents. See `README.md` for structure.
-
-**02-Methods-and-Tools** – PM frameworks, guides, templates, playbooks, prompts. See `README.md` for navigation.
-
-**03-Research-Artifacts** – Research storage. See `README.md` for organization guidelines.
-
-**04-Initiatives** – Opportunity assessments and early thinking. See `README.md` for process.
-
-**08-Prototypes** *(optional)* – Experiments and prototypes.
-
-**09-Personal-Context** *(optional)* – Personal notes (keep sensitive content in private fork).
+3. Log learnings in framework guides to improve the system
 
 ---
 
@@ -242,7 +248,9 @@ When contributing:
 
 ---
 
-*⭐ Star this repo if you find it useful • 🔀 Fork it to customize for your team • Created by [Andreas Kelm](https://github.com/andreaskelm)*
+## 👤 Created by [Andreas Kelm](https://github.com/andreaskelm)
+
+⭐ Star this repo if you find it useful • 🔀 Fork it to customize for your team
 
 ---
 
@@ -254,4 +262,8 @@ This repository builds on frameworks from product management thought leaders. Se
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See [`LICENSE`](./LICENSE) for details.
+This work is licensed under CC BY-NC-SA 4.0.
+
+Copyright © 2025 Andreas Kelm. You may view, use, modify, and share this repo with attribution for non-commercial purposes. Commercial sale is not permitted, but you may use it internally for work and business.
+
+Full license: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode

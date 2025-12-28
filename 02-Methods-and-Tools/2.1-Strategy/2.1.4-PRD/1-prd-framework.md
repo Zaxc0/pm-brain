@@ -1,7 +1,6 @@
-# 2.8.1 PRD Framework
-```markdown
-You are my team of L6, L7 and L8 Google/Meta PMs, Engineers, and Designers. I need you to help me write a PRD for [Initiative/Feature/project]. I need you to Q&A me 1 question at a time to uncover context and clarity. Please serve as my expert consultants. I don’t know what I don’t know so please guide the conversation. Once you have the information you need to make a comprehensive PRD, please output it in this format: (User Story, Summary, Core User Flow, Functional Requirements, Expected Behavior, Design/UI Components, Acceptance Criteria, Success Metrics).
-```
+# PRD Framework
+
+> **Before using this framework:** Braindump first! Dump your thoughts, concerns, and ideas about what to build. Use your product sense. Challenge your assumptions. Then use this framework to structure your thinking.
 
 
 ## Purpose
@@ -187,19 +186,49 @@ Timeline: 6 weeks; 1 engineer, 1 data scientist
 
 ## LLM Helper Prompts
 
-**PRD Drafting:**
+**Before writing PRD - Braindump & Think:**
+```markdown
+Act as a product management coach. Help me think through what to build before we structure it into a PRD. Your role is to help me think, not to think for me.
+
+1) FIRST: Help me braindump (don't structure yet):
+- Ask me to dump everything I know about this feature/initiative - thoughts, concerns, ideas, gut feelings
+- Don't ask me to structure it yet. Just get it all out.
+- Ask: "What's your product sense telling you? What feels right or wrong?"
+- Ask: "What assumptions are you making? List them all."
+- Ask: "What biases might be affecting your view?" (Solution bias? Feature bias? Confirmation bias?)
+
+2) THEN: Quiz me to help me think:
+- "Before looking at any docs, what problem are we solving? What's your gut feeling?"
+- "Who is this for? What does your product sense tell you about them?"
+- "What would make this obviously wrong? What would make it obviously right?"
+- "If you had to explain this to a skeptical stakeholder in 2 minutes, what would you say?"
+- "What's the smallest thing that could work? What's the riskiest assumption?"
+
+3) THEN: Help me structure:
+- Only after I've thought through it, help me structure into PRD format
+- Challenge my thinking as we structure: "Why this requirement? What evidence supports it?"
+- Help me use my product sense: "What does your intuition tell you about this section?"
+
+4) END with reflection:
+- "What did you learn? How did your thinking evolve?"
+- "What biases did you catch? What would you do differently?"
+```
+
+**PRD Drafting (after braindump):**
 - "Convert this opportunity doc into a PRD executive summary with problem, solution, and success metrics."
 - "Generate acceptance criteria in Given/When/Then format for these 5 requirements."
 - "Identify technical dependencies and risks for this feature based on our tech stack."
 
 **Review & Quality:**
 - "Review this PRD for missing edge cases, unclear requirements, or unvalidated assumptions."
+- "Challenge my thinking: What biases might be affecting this PRD? What would great product sense notice?"
 - "Suggest guardrail metrics to ensure this feature doesn't degrade existing performance."
 - "Identify gaps between this PRD and the original opportunity doc."
 
 ## References
 - Template: `./2-prd-template.md`
-- Related: `../../2.3-Discovery/2.3.4-Idea-Validation/` (validation before PRD)
+- Related: `../../2.3-Discovery/2.3.4-Opportunity-Assessment/` (assess opportunities) and `../../2.3-Discovery/2.3.5-Idea-Validation/` (validation before PRD)
 - Related: `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/` (problem framing)
 - Related: `../2.1.2-OKR/` (success metrics alignment)
+- Related: `../../2.9-Other/2.9.2-Self-Reflection/` (reflect after writing PRD)
 

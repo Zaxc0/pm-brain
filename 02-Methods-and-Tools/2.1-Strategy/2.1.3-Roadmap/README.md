@@ -17,16 +17,54 @@ A comprehensive framework for creating stakeholder-friendly product roadmaps tha
 
 ## Files
 
-- **2.3.1-roadmap-framework.md** - Complete framework with philosophy, structure, and best practices
-- **2.3.2-roadmap-template.md** - Ready-to-use template with examples
+- **1-roadmap-framework.md** - Complete framework with philosophy, structure, and best practices
+- **2-roadmap-template.md** - Ready-to-use template with examples
+- **3-roadmap-evaluation.md** - Evaluation framework (start with product sense/gut check, then structured evaluation)
 
 ## How to Use This Framework
 
-1. **Copy Template**: Start with `2.3.2-roadmap-template.md`
-2. **Fill Time Horizons**: Add initiatives to NOW, NEXT, and LATER sections
-3. **Set Confidence Levels**: Use appropriate confidence (🟢🟡🔴) based on certainty
-4. **Share with Stakeholders**: Use communication guide for different audiences
-5. **Schedule Reviews**: Set up weekly/monthly/quarterly review cadence
+### Step 0: Braindump & Product Sense (Do this first!)
+
+**Before creating roadmap, braindump:**
+- What initiatives are you considering? Dump everything - don't prioritize yet.
+- What does your product sense tell you? What feels urgent vs. important?
+- What assumptions are you making about timing? List them.
+- What biases might affect your roadmap? (Recency bias? Squeaky wheel? Status quo?)
+- What would great product sense look like here? What would an experienced PM prioritize?
+
+**Product sense exercise:**
+- If you had to ship ONE thing in the next quarter, what would it be? Why?
+- What would make you say "this roadmap is obviously wrong"?
+- What would make you say "this roadmap is obviously right"?
+
+### Step 1: Copy Template
+Start with `1-roadmap-framework.md` to understand principles, then use `2-roadmap-template.md`
+
+### Step 2: Fill Time Horizons
+Add initiatives to NOW, NEXT, and LATER sections based on your braindump
+
+### Step 3: Set Confidence Levels
+Use appropriate confidence (🟢🟡🔴) based on certainty
+
+### Step 4: Share with Stakeholders
+Use communication guide for different audiences
+
+### Step 5: Schedule Reviews
+Set up weekly/monthly/quarterly review cadence
+
+### Step 6: Evaluate Your Roadmap
+Use `3-roadmap-evaluation.md` to evaluate your roadmap:
+- **Start with product sense/gut check** (5-10 min): What feels right? What feels off?
+- **Then run structured evaluation** to validate and deepen your insights
+- Compare your gut feeling to the structured evaluation results
+
+### Step 7: Self-Reflection
+After creating roadmap, reflect:
+- How did your thinking evolve from your braindump?
+- What biases did you catch? (Recency? Squeaky wheel? Status quo?)
+- What does your product sense tell you about this roadmap?
+- How did your product sense compare to the structured evaluation?
+- What would you do differently next time?
 
 ## How to Maintain
 
@@ -45,5 +83,7 @@ A comprehensive framework for creating stakeholder-friendly product roadmaps tha
 ## Links
 
 - Company Roadmap: `../../01-Company-Context/5-company-roadmap.md`
-- Product Strategy: `../2.1-Product-Strategy/README.md`
-- OKR Framework: `../2.2-OKR/README.md`
+- Product Strategy: `../2.1.1-Product-Strategy/README.md`
+- OKR Framework: `../2.1.2-OKR/README.md`
+- PRD Framework: `../2.1.4-PRD/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

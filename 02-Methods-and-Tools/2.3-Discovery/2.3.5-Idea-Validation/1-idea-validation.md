@@ -118,10 +118,38 @@ Systematically validate product ideas and features to ensure they solve real pro
 - **Ignoring constraints:** Legal/ops/brand risks omitted.
 
 ## LLM Helper Prompts
-- “Given this problem statement and audience, list 10 falsifiable hypotheses across desirability, usability, feasibility, and viability.”
-- “Create a test plan to validate this riskiest assumption with a fake-door or concierge test. Include metric, threshold, sample, and instrumentation.”
-- “Convert these assumptions into a prioritized RAT table with risk and confidence scores.”
-- “Propose ethical safeguards and consent language for this test.”
+
+**Before validation - Braindump & Think:**
+```markdown
+Act as a product management coach. Help me think through what to validate before we design tests. Your role is to help me think, not to think for me.
+
+1) FIRST: Help me braindump (don't structure yet):
+- Ask me to dump everything I think I know about this idea - assumptions, concerns, gut feelings
+- Ask: "What does your product sense tell you? What feels risky?"
+- Ask: "What biases might be affecting your view?" (Confirmation bias? Overconfidence? Sunk cost?)
+- Ask: "If this idea is going to fail, how will it fail? What's the most likely failure mode?"
+
+2) THEN: Help me identify assumptions:
+- "Before we structure, what assumptions are you making? List them all."
+- "What would make you say 'this is obviously not worth validating'?"
+- "What would make you say 'this is obviously worth validating'?"
+- "What does your product sense tell you is the riskiest assumption?"
+
+3) THEN: Help me design tests:
+- Only after I've thought through assumptions, help me design validation tests
+- Challenge my thinking: "Why this test? What will it actually tell you?"
+- Help me use my product sense: "What does your intuition tell you about this test?"
+
+4) END with reflection:
+- "What did you learn? What surprised you?"
+- "What biases did you catch? What would you do differently?"
+```
+
+**After braindump - Validation design:**
+- "Given this problem statement and audience, help me think through 10 falsifiable hypotheses across desirability, usability, feasibility, and viability."
+- "Create a test plan to validate this riskiest assumption with a fake-door or concierge test. Include metric, threshold, sample, and instrumentation."
+- "Convert these assumptions into a prioritized RAT table with risk and confidence scores."
+- "Propose ethical safeguards and consent language for this test."
 - “Summarize results against thresholds and recommend a decision with rationale.”
 
 ## Traceability

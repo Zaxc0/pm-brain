@@ -20,22 +20,54 @@ Use these guides and templates to develop comprehensive product strategies from 
 - `full-guide.md` — Complete product strategy development process
 
 ### Templates
-- `2.1.2-templates/competitive-heatmap.md` — Market positioning analysis template
-- `2.1.2-templates/design-sprint-brief.md` — Design sprint planning template
-- `2.1.2-templates/leadership-interview-guide.md` — Stakeholder interview questions
-- `2.1.2-templates/pillar-scorecard.md` — Strategy pillar evaluation framework
-- `2.1.2-templates/rollout-plan.md` — Implementation planning template
-- `2.1.2-templates/strategy-doc.md` — Comprehensive strategy documentation
-- `2.1.2-templates/strategy-sprint.md` — Sprint-based strategy development
-- `2.1.2-templates/working-group-charter.md` — Team charter and responsibilities
+- `2.1.1-templates/competitive-heatmap.md` — Market positioning analysis template
+- `2.1.1-templates/design-sprint-brief.md` — Design sprint planning template
+- `2.1.1-templates/leadership-interview-guide.md` — Stakeholder interview questions
+- `2.1.1-templates/pillar-scorecard.md` — Strategy pillar evaluation framework
+- `2.1.1-templates/rollout-plan.md` — Implementation planning template
+- `2.1.1-templates/strategy-doc.md` — Comprehensive strategy documentation
+- `2.1.1-templates/strategy-sprint.md` — Sprint-based strategy development
+- `2.1.1-templates/working-group-charter.md` — Team charter and responsibilities
 
 ## How to Use This Framework
 
-1. **Choose Guide**: Start with `quickstart.md` for rapid strategy or `full-guide.md` for comprehensive planning
-2. **Form Working Group**: Assemble PM, Engineering, Design, and Data leads
-3. **Use Templates**: Structure your work using templates in `2.1.2-templates/`
-4. **Conduct Strategy Sprint**: Follow the 1-week sprint process to develop pillars
-5. **Operationalize**: Map pillars to OKRs and seed roadmap with supporting initiatives
+### Step 0: Braindump & Product Sense (Do this first!)
+
+Before jumping into templates, take 15-30 minutes to braindump:
+
+**Braindumping prompts:**
+- What strategic challenges are you facing? Dump everything - don't structure yet.
+- What does your product sense tell you? What feels right or wrong about current direction?
+- What assumptions are you making? List them explicitly.
+- What biases might be affecting your view? (e.g., sunk cost, confirmation bias, status quo)
+- What would great product sense look like here? What would an experienced PM notice?
+
+**Product sense exercise:**
+- If you had to make this decision in 5 minutes with no framework, what would you do? Why?
+- What would make you say "this strategy is obviously wrong"?
+- What would make you say "this strategy is obviously right"?
+
+### Step 1: Choose Guide
+Start with `quickstart.md` for rapid strategy or `full-guide.md` for comprehensive planning
+
+### Step 2: Form Working Group
+Assemble PM, Engineering, Design, and Data leads
+
+### Step 3: Use Templates
+Structure your work using templates in `2.1.1-templates/`
+
+### Step 4: Conduct Strategy Sprint
+Follow the 1-week sprint process to develop pillars
+
+### Step 5: Operationalize
+Map pillars to OKRs and seed roadmap with supporting initiatives
+
+### Step 6: Self-Reflection
+After completing strategy work, reflect:
+- What did you learn? What surprised you?
+- How did your thinking evolve from your initial braindump?
+- What would you do differently next time?
+- What biases did you catch yourself falling into?
 
 ## How to Maintain
 
@@ -47,6 +79,8 @@ Use these guides and templates to develop comprehensive product strategies from 
 ## Links
 - Company Strategy: `../../01-Company-Context/2-company-strategy.md`
 - Company Vision: `../../01-Company-Context/1-company-vision.md`
-- OKR Framework: `../2.2-OKR/README.md`
-- Roadmap: `../2.3-Roadmap/README.md`
-- Newsletter: `../2.4-Newsletter/README.md`
+- OKR Framework: `../2.1.2-OKR/README.md`
+- Roadmap: `../2.1.3-Roadmap/README.md`
+- PRD Framework: `../2.1.4-PRD/README.md`
+- Newsletter: `../../2.2-Communication/2.2.1-Newsletter/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

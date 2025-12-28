@@ -4,9 +4,30 @@ This directory contains **rule files** that tell the AI how to behave in this wo
 
 ### What these files are
 
-- `thinking.mdc` – General “how to think with me” instructions for the AI (e.g. coaching style, language handling, focus areas).  
+- `thinking.mdc` – General "how to think with me" instructions for the AI (e.g. coaching style, language handling, focus areas).  
 - `thinking.personal.mdc` – **Template** for your personal context: name (or alias), working style, preferences. You should fill this with your own information (or keep it blank) and avoid committing sensitive details to public repos.  
-- `AGENTS.md` – Template for defining custom AI “agents” (roles) for this workspace.  
+- `AGENTS.md` – Template for defining custom AI "agents" (roles) for this workspace.
+
+### Flexible Rule Structure
+
+**Consider creating multiple rule files for different purposes:**
+- `thinking.mdc` – Core coaching and thinking style (always relevant)
+- `thinking.personal.mdc` – Personal preferences (always relevant)
+- `thinking.code.mdc` – Code-specific rules (apply when coding)
+- `thinking.docs.mdc` – Documentation rules (apply when writing docs)
+- `thinking.strategy.mdc` – Strategy/planning rules (apply for strategic work)
+- `thinking.review.mdc` – Review/critique rules (apply when reviewing work)
+
+**Benefits of multiple rules:**
+- **Context-aware**: Rules apply only when relevant (use `alwaysApply: false` and reference them in prompts)
+- **Focused**: Each rule file stays focused on its domain
+- **Maintainable**: Easier to update specific areas without touching everything
+- **Flexible**: Mix and match rules based on the task at hand
+
+**How to use multiple rules:**
+- Set `alwaysApply: false` in rule files you want to invoke selectively
+- Reference specific rules in your prompts: "Use the strategy thinking rules for this task"
+- Or let the AI suggest which rules are relevant based on the work you're doing  
 
 > **Important:** These files are meant to describe *how* you want the AI to work with you – not to store confidential business data. Keep actual private/company information in regular project files that are not shared publicly.
 
@@ -17,7 +38,13 @@ This directory contains **rule files** that tell the AI how to behave in this wo
   - Help structuring work (roadmaps, OKRs, discovery, PRDs, etc.)
   - Help synthesizing notes, research, or stakeholder input
 - `thinking.personal.mdc` is used **only** to adapt tone, pacing, and structure to your preferences (e.g. more bullets, slower pacing, more probing questions).
-- `AGENTS.md` can define multiple “personas” or roles (e.g. Product Coach, Architect, Research Partner) that you can invoke explicitly in prompts.
+- `AGENTS.md` can define multiple "personas" or roles (e.g. Product Coach, Architect, Research Partner) that you can invoke explicitly in prompts.
+- **Domain-specific rules** (if you create them) should be referenced when working in that domain, or let the AI suggest which rules are relevant.
+
+**Rule evolution:**
+- The AI will proactively ask if rules should be updated after insightful conversations
+- Rules should evolve as you learn what works best for your workflow
+- Keep rules living documents that reflect your current working style
 
 ### Quick start: set up your rules
 

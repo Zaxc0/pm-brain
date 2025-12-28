@@ -2,6 +2,12 @@
 
 This directory is the **core of the PM brain**: it contains the decision models, guides, templates, playbooks, and prompts you use every day.
 
+**Important:** These frameworks are designed to **guide your thinking**, not replace it. Before jumping into templates:
+1. **Braindump first** – Use the prompts in each framework to dump your raw thoughts
+2. **Develop product sense** – Use the exercises to build judgment and taste
+3. **Think critically** – Answer quiz questions honestly, challenge your assumptions
+4. **Reflect** – Use self-reflection prompts to learn and improve
+
 Content here is organized primarily by **domain** (Strategy, Communication, Discovery, Other), and within each domain by **numbered frameworks**.
 
 ---
@@ -28,15 +34,18 @@ Content here is organized primarily by **domain** (Strategy, Communication, Disc
 │   ├── 2.3.1-Research-Interviews/
 │   ├── 2.3.2-Continuous-Discovery-Habits/
 │   ├── 2.3.3-Jobs-To-Be-Done/
-│   └── 2.3.4-Idea-Validation/
+│   ├── 2.3.4-Opportunity-Assessment/
+│   └── 2.3.5-Idea-Validation/
 └── 2.9-Other/               # Supporting methods & mental models
-    └── 2.9.1-Mental-Models/
+    ├── 2.9.1-Mental-Models/
+    └── 2.9.2-Self-Reflection/
 ```
 
 Inside each numbered framework folder (e.g. `2.3.2-Continuous-Discovery-Habits/`), files are usually numbered:
 
 - `1-...` for the main framework or guide  
 - `2-...`, `3-...`, etc. for templates, steps, or evaluations  
+- Some frameworks include evaluation files (e.g., `3-okr-evaluation.md`, `3-roadmap-evaluation.md`) for structured assessment  
 
 ---
 
@@ -56,7 +65,7 @@ Inside each numbered framework folder (e.g. `2.3.2-Continuous-Discovery-Habits/`
 ## Typical navigation examples
 
 - **Prioritizing a backlog**
-  - Start in `2.1-Strategy/2.1.7-Prioritization/` (when populated) or `2.3-Discovery/2.3.4-Idea-Validation/`.  
+  - Start in `2.1-Strategy/2.1.7-Prioritization/` (when populated) or `2.3-Discovery/2.3.5-Idea-Validation/`.  
   - Use a decision log in your initiative folder under `04-Initiatives/`.
 
 - **Running discovery**
@@ -75,25 +84,30 @@ As you adapt these to your team, keep this structure but tune the content to mat
 
 ## Quick start: self-quiz + AI collaboration for methods
 
-Use this prompt to figure out **where to start in `02-Methods-and-Tools/`** when you’re not sure which framework to use:
+Use this prompt to figure out **where to start in `02-Methods-and-Tools/`** when you're not sure which framework to use:
 
 ```markdown
-Act as a product management coach. We'll work iteratively and challenge assumptions.
+Act as a product management coach. We'll work iteratively and challenge assumptions. Your role is to help me think, not to think for me.
 
-1) First, help me locate the right area in this repo:
-- Ask what I'm trying to do right now (e.g. shape strategy, plan roadmap, write PRD, run discovery, validate an idea, communicate to stakeholders).
-- Based on my answer, propose 1–3 starting points under `02-Methods-and-Tools/` using this structure:
+1) First, help me braindump and locate the right area:
+- Ask me to braindump: "What are you trying to do right now? Dump all your thoughts, concerns, and ideas - don't worry about structure yet."
+- Based on my braindump, ask clarifying questions to understand my context and challenge my assumptions.
+- Propose 1–3 starting points under `02-Methods-and-Tools/` using this structure:
   - 2.1-Strategy (2.1.1-Product-Strategy, 2.1.2-OKR, 2.1.3-Roadmap, 2.1.4-PRD, 2.1.5-Personas, 2.1.6-North-Star, 2.1.7-Prioritization)
   - 2.2-Communication (2.2.1-Newsletter, 2.2.2-Meeting-Agendas, 2.2.3-One-Pagers, 2.2.4-Crisis-Management, 2.2.9-Courses)
-  - 2.3-Discovery (2.3.1-Research-Interviews, 2.3.2-Continuous-Discovery-Habits, 2.3.3-Jobs-To-Be-Done, 2.3.4-Idea-Validation)
-  - 2.9-Other (2.9.1-Mental-Models)
+  - 2.3-Discovery (2.3.1-Research-Interviews, 2.3.2-Continuous-Discovery-Habits, 2.3.3-Jobs-To-Be-Done, 2.3.4-Opportunity-Assessment, 2.3.5-Idea-Validation)
+  - 2.9-Other (2.9.1-Mental-Models, 2.9.2-Self-Reflection)
 
 2) For the chosen starting framework:
-- Ask me to paste any relevant notes or context (initiative, customer segment, current docs).
-- Summarize which parts of the framework I’ve already covered vs what’s missing.
-- Suggest the next 1–3 concrete steps (e.g. "fill out this template", "run these interviews", "write this PRD section") with file paths in this repo.
+- DON'T just ask me to paste notes. Instead, quiz me: "Before looking at your notes, tell me what you know about [topic]. What's your gut feeling? What assumptions are you making?"
+- Help me braindump my thoughts on this topic first.
+- Then ask me to paste any relevant notes or context.
+- Challenge my thinking: "What biases might be affecting your view? What would someone with different product sense say?"
+- Summarize which parts of the framework I've already covered vs what's missing.
+- Suggest the next 1–3 concrete steps, but make me think: "What do you think should come next? Why?"
 
 3) At the end of each pass:
+- Ask me to reflect: "What did you learn? What would you do differently? What's your product sense telling you?"
 - List: (a) the framework files I should touch next, (b) which repo directory to update in `04-Initiatives/` or `03-Research-Artifacts/`, and (c) any risks or open questions to track.
 
 I'll start by telling you what I'm working on right now.

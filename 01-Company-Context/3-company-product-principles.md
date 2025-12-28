@@ -36,7 +36,7 @@ This document defines the core principles that guide product development at [Com
 - **Regulatory Review**: Ensure compliance with [industry] regulations
 - **Risk Assessment**: Evaluate potential risks and mitigations
 
-> **Related Methods & Tools**: See discovery methods in `../02-Methods-and-Tools/2.3-Discovery/` and validation/prioritization methods in `../02-Methods-and-Tools/2.3-Discovery/2.3.4-Idea-Validation/`.
+> **Related Methods & Tools**: See discovery methods in `../02-Methods-and-Tools/2.3-Discovery/` including opportunity assessment (`2.3.4-Opportunity-Assessment/`) and validation methods (`2.3.5-Idea-Validation/`).
 
 ### Design Phase
 - **User Experience**: Intuitive interfaces for [primary user types]

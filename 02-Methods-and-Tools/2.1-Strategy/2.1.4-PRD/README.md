@@ -15,17 +15,17 @@ The frameworks follow a natural product development flow:
 
 **Discovery → Define → Decide → Deliver → Launch & Learn**
 
-1. **Discover** (2.5-Continuous-Discovery-Habits): Interview users, observe behavior, collect stories
-2. **Define** (2.6-Jobs-To-Be-Done, 2.5.3-create-opportunities): Frame problems as jobs and opportunities
-3. **Decide** (2.5.4-generate-solutions, 2.7-Idea-Validation): Generate solutions and validate assumptions
-4. **Deliver** (2.8-PRD): Write requirements and build
-5. **Launch & Learn** (2.2-OKR, 2.3-Roadmap): Measure outcomes and iterate
+1. **Discover** (2.3.2-Continuous-Discovery-Habits): Interview users, observe behavior, collect stories
+2. **Define** (2.3.3-Jobs-To-Be-Done, 2.3.2-Continuous-Discovery-Habits): Frame problems as jobs and opportunities
+3. **Decide** (2.3.4-Opportunity-Assessment, 2.3.5-Idea-Validation): Assess opportunities and validate assumptions
+4. **Deliver** (2.1.4-PRD): Write requirements and build
+5. **Launch & Learn** (2.1.2-OKR, 2.1.3-Roadmap): Measure outcomes and iterate
 
 **Strategic Context:**
-- **2.1-Product-Strategy**: Sets strategic direction (done first, informs everything)
-- **2.2-OKR**: Operationalizes strategy into measurable outcomes
-- **2.3-Roadmap**: Plans execution timeline
-- **2.4-Newsletter**: Communicates progress
+- **2.1.1-Product-Strategy**: Sets strategic direction (done first, informs everything)
+- **2.1.2-OKR**: Operationalizes strategy into measurable outcomes
+- **2.1.3-Roadmap**: Plans execution timeline
+- **2.2.1-Newsletter**: Communicates progress
 
 ## How to Use This Directory
 
@@ -53,18 +53,56 @@ The frameworks follow a natural product development flow:
 Use this framework and template to create product requirements documents that bridge discovery and execution, aligning cross-functional teams around what to build and how success will be measured.
 
 ## Files
-- `2.8.1-prd-framework.md` — Complete PRD framework with principles, structure guidance, and quality checklist
-- `2.8.2-prd-template.md` — Standard PRD template with sections for context, requirements, and success metrics
-- `2.8.3-prd-jtbd-template.md` — Jobs-to-Be-Done focused PRD template for job-centered product work
+- `1-prd-framework.md` — Complete PRD framework with principles, structure guidance, and quality checklist
+- `2-prd-template.md` — Standard PRD template with sections for context, requirements, and success metrics
+- `3-prd-jtbd-template.md` — Jobs-to-Be-Done focused PRD template for job-centered product work
 
 ## How to use
-1) Review the framework in `2.8.1-prd-framework.md` to understand PRD principles and when to use them
-2) Choose your template:
-   - Use `2.8.2-prd-template.md` for standard product requirements
-   - Use `2.8.3-prd-jtbd-template.md` when your work is centered around customer jobs
-3) Start with section 3 (Goals & Success Metrics) then work outward
-4) Use the quality checklist to ensure completeness before stakeholder review
-5) Maintain as living document; track changes in version history
+
+### Step 0: Braindump & Think First (Critical!)
+
+**Before opening any template, braindump for 20-30 minutes:**
+
+**Braindumping prompts:**
+- What problem are we solving? Dump everything you know - don't structure yet.
+- Who is this for? What do they need? What's your gut feeling?
+- What does your product sense tell you? What feels right or wrong about this?
+- What assumptions are you making? List them with confidence levels.
+- What would great product sense look like here? What would an experienced PM notice?
+
+**Critical thinking questions:**
+- What biases might be affecting your view? (Solution bias? Confirmation bias? Sunk cost?)
+- What evidence do you actually have vs. what you assume?
+- What would make this obviously wrong? What would make it obviously right?
+- If you had to explain this to a skeptical stakeholder in 2 minutes, what would you say?
+
+**Product sense exercise:**
+- If you had to ship this in 1 week with no PRD, what would you build? Why?
+- What's the smallest thing that could work? What's the riskiest assumption?
+- What would make you say "this is obviously the wrong thing to build"?
+
+### Step 1: Review Framework
+Review the framework in `1-prd-framework.md` to understand PRD principles and when to use them
+
+### Step 2: Choose Template
+- Use `2-prd-template.md` for standard product requirements
+- Use `3-prd-jtbd-template.md` when your work is centered around customer jobs
+
+### Step 3: Structure Your Thinking
+Start with section 3 (Goals & Success Metrics) then work outward - but use your braindump to inform each section
+
+### Step 4: Quality Check
+Use the quality checklist to ensure completeness before stakeholder review
+
+### Step 5: Maintain
+Maintain as living document; track changes in version history
+
+### Step 6: Self-Reflection
+After writing the PRD, reflect:
+- How did your thinking evolve from your braindump?
+- What did you learn? What surprised you?
+- What biases did you catch? What would you do differently?
+- How did your product sense guide you?
 
 ## When to Use
 - After solution validation (passed RAT tests)
@@ -81,6 +119,7 @@ Use this framework and template to create product requirements documents that br
 ## Links
 - Product Strategy: `../2.1.1-Product-Strategy/README.md`
 - Jobs To Be Done: `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/README.md`
-- Idea Validation: `../../2.3-Discovery/2.3.4-Idea-Validation/README.md`
+- Opportunity Assessment: `../../2.3-Discovery/2.3.4-Opportunity-Assessment/README.md`
+- Idea Validation: `../../2.3-Discovery/2.3.5-Idea-Validation/README.md`
 - OKR Framework: `../2.1.2-OKR/README.md`
 
