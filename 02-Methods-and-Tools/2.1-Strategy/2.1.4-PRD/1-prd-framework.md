@@ -225,10 +225,16 @@ Act as a product management coach. Help me think through what to build before we
 - "Suggest guardrail metrics to ensure this feature doesn't degrade existing performance."
 - "Identify gaps between this PRD and the original opportunity doc."
 
+-----
+
 ## References
-- Template: `./2-prd-template.md`
-- Related: `../../2.3-Discovery/2.3.4-Opportunity-Assessment/` (assess opportunities) and `../../2.3-Discovery/2.3.5-Idea-Validation/` (validation before PRD)
-- Related: `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/` (problem framing)
-- Related: `../2.1.2-OKR/` (success metrics alignment)
-- Related: `../../2.9-Other/2.9.2-Self-Reflection/` (reflect after writing PRD)
+
+- PRD Template: `2-prd-template.md`
+- PRD JTBD Template: `3-prd-jtbd-template.md`
+- Product Strategy: `../2.1.1-Product-Strategy/README.md`
+- OKR Framework: `../2.1.2-OKR/README.md`
+- Opportunity Assessment: `../../2.3-Discovery/2.3.4-Opportunity-Assessment/README.md`
+- Idea Validation: `../../2.3-Discovery/2.3.5-Idea-Validation/README.md`
+- Jobs to Be Done: `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
 

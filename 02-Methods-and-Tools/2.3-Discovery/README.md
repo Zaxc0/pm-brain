@@ -24,6 +24,9 @@ This domain contains methods for understanding customers, framing opportunities,
 - **2.3.5-Idea-Validation**  
   Framework for reducing risk before build (RAT-style validation). Use this when stakeholders say "prove it" and you need a minimal test plan for desirability, usability, feasibility, or viability.
 
-Typical flow: **Research-Interviews → Continuous-Discovery-Habits → JTBD (optional/parallel) → Opportunity-Assessment → Idea-Validation → Strategy/Delivery**.
+- **2.3.6-Problem-Solution-Space**  
+  Framework for systematically exploring ambiguous problems and generating multiple solution options. Use this when you need to deeply understand a problem before committing to a solution.
+
+Typical flow: **Research-Interviews → Continuous-Discovery-Habits → JTBD (optional/parallel) → Problem-Solution-Space → Opportunity-Assessment → Idea-Validation → Strategy/Delivery**.
 
 

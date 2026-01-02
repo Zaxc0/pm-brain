@@ -8,6 +8,15 @@ This domain collects supporting methods that cut across strategy, discovery, del
 - **2.9.2-Self-Reflection**  
   Framework for reflecting on your work, developing product sense, and catching biases. Use this after completing any framework or process to learn and improve.
 
+- **2.9.3-Daily-Execution-And-Rituals**  
+  Step-by-step guides for day-to-day PM execution in large organizations. Includes daily, weekly, and monthly rituals and routines.
+
+- **2.9.4-Bias**  
+  Framework for recognizing and mitigating cognitive biases in product decision-making. Use this to improve decision quality and catch systematic thinking errors.
+
+- **2.9.5-Metrics**  
+  Framework for distinguishing between meaningful and misleading metrics. Use this to ensure you measure what actually drives product and business forward.
+
 As you develop additional cross-cutting methods that don't fit neatly into Strategy, Communication, or Discovery, you can add new `2.9.x-*` folders here.
 
 

@@ -23,11 +23,11 @@ This domain contains the core strategy methods you use to set direction, transla
 - **2.1.5-Personas**  
   Describes who you’re building for. Use this to define personas and templates that connect directly to your product strategy and roadmap.
 
-- **2.1.6-North-Star** *(placeholder)*  
-  Reserved for methods & templates to define and maintain your north-star metric and supporting metric tree.
+- **2.1.6-North-Star**  
+  Define and maintain your north-star metric and supporting metric tree. Use this to align teams around a single metric that captures customer value.
 
-- **2.1.7-Prioritization** *(placeholder)*  
-  Reserved for prioritization frameworks and templates (e.g. value vs effort, RICE) that connect strategy to backlog decisions.
+- **2.1.7-Prioritization**  
+  Prioritization frameworks and templates (RICE, ICE, Effort-Impact, Value-Complexity) that connect strategy to backlog decisions.
 
 Typical flow: **Product-Strategy → OKR → Roadmap → Personas → PRD → Delivery**.
 

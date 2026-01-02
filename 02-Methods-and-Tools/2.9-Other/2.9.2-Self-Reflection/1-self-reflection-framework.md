@@ -187,8 +187,12 @@ Act as a product management coach helping me reflect on my work. Your role is to
 I'll start by telling you what I just worked on.
 ```
 
-## Related Frameworks
+-----
 
-- **Mental Models** (`../2.9.1-Mental-Models/`) — Decision-making frameworks
-- **All frameworks** in `../../` benefit from reflection after use
+## References
+
+- Reflection Template: `2-reflection-template.md`
+- Mental Models: `../2.9.1-Mental-Models/README.md`
+- Bias Framework: `../2.9.4-Bias/README.md`
+- All frameworks in `02-Methods-and-Tools/` benefit from reflection after use
 

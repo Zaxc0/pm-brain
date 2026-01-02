@@ -239,17 +239,15 @@ For each major learning outcome:
 ## Usage Notes
 This framework can be applied to any learning topic by following the 4Cs structure and brain-based principles. The key is maintaining the balance between connection, concept introduction, hands-on practice, and actionable conclusions while incorporating multi-sensory learning approaches.
 
-## Related Resources
+-----
 
-### Within This Repository:
-- **[README](./README.md)** - Overview and quick start guide
-- **Course Design Template** - Step-by-step ideation worksheets (coming soon)
+## References
 
-### Complementary Frameworks:
-- Workshop facilitation techniques
-- Stakeholder engagement methods  
-- Team collaboration frameworks
-- Product management training approaches
+- Course Design Template: `2-course-design-template.md`
+- Newsletter: `../2.2.1-Newsletter/README.md`
+- Stakeholder Management: `../2.2.7-Stakeholder-Management/README.md`
+- Meeting Agendas: `../2.2.2-Meeting-Agendas/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
 
 ---
 
@@ -257,6 +255,3 @@ This framework can be applied to any learning topic by following the 4Cs structu
 - **[⬆️ Back to Top](#course-design-framework-brain-based-learning-4cs-model)**
 - **[📋 View README](./README.md)**
 - **[🛠️ Use Template](./2-course-design-template.md)** *(create this file using the ideation process above)*
-
-**Last Updated**: September 4, 2025  
-**Version**: 1.0

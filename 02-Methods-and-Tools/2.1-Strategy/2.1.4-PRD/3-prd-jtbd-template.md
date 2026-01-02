@@ -358,6 +358,14 @@ For faster iteration, use this compact format:
 ### Links
 - JTBD doc, Interviews/Synthesis, Opportunity, Validation plan, Designs
 
----
+-----
 
-> **Related Framework**: See `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/` for JTBD methodology and `./1-prd-framework.md` for PRD principles.
+## References
+
+- PRD Framework: `1-prd-framework.md`
+- PRD Template: `2-prd-template.md`
+- PRD README: `README.md`
+- Jobs to Be Done: `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/README.md`
+- Opportunity Assessment: `../../2.3-Discovery/2.3.4-Opportunity-Assessment/README.md`
+- Idea Validation: `../../2.3-Discovery/2.3.5-Idea-Validation/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

@@ -83,4 +83,15 @@ This document provides ready-to-use templates for creating and managing OKRs. Ch
 - Decisions this week: [log link]
 ```
 
+-----
+
+## References
+
+- OKR Framework: `1-okr-framework.md`
+- OKR Evaluation: `3-okr-evaluation.md`
+- OKR README: `README.md`
+- Product Strategy: `../2.1.1-Product-Strategy/README.md`
+- Roadmap: `../2.1.3-Roadmap/README.md`
+- PRD Framework: `../2.1.4-PRD/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
 

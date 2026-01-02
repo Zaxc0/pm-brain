@@ -71,3 +71,16 @@
 - Decision log: [`decisions.md` entry]
 - Related frameworks: [links to discovery methods used]
 
+-----
+
+## References
+
+- Opportunity Assessment Framework: `1-opportunity-assessment-framework.md`
+- Opportunity Assessment README: `README.md`
+- Research Interviews: `../2.3.1-Research-Interviews/README.md`
+- Continuous Discovery Habits: `../2.3.2-Continuous-Discovery-Habits/README.md`
+- Jobs to Be Done: `../2.3.3-Jobs-To-Be-Done/README.md`
+- Idea Validation: `../2.3.5-Idea-Validation/README.md`
+- Problem-Solution Space: `../2.3.6-Problem-Solution-Space/README.md`
+- PRD Framework: `../../2.1-Strategy/2.1.4-PRD/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

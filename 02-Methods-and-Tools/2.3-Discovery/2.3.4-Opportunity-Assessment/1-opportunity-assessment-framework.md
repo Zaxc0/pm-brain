@@ -179,11 +179,16 @@ Act as a product management coach. Help me think through my opportunity assessme
 - Self-reflection: "What would you do differently? What biases did you catch?"
 ```
 
-## Related Frameworks
+-----
 
-- **Research Interviews** (`../2.3.1-Research-Interviews/`) — Validate assumptions through customer conversations
-- **Continuous Discovery Habits** (`../2.3.2-Continuous-Discovery-Habits/`) — Systematic discovery process
-- **Jobs To Be Done** (`../2.3.3-Jobs-To-Be-Done/`) — Frame problems as customer jobs
-- **Idea Validation** (`../2.3.5-Idea-Validation/`) — Test solutions before building
-- **PRD Templates** (`../../2.1-Strategy/2.1.4-PRD/`) — Specify requirements when validated
+## References
+
+- Opportunity Assessment Template: `2-opportunity-assessment-template.md`
+- Research Interviews: `../2.3.1-Research-Interviews/README.md`
+- Continuous Discovery Habits: `../2.3.2-Continuous-Discovery-Habits/README.md`
+- Jobs To Be Done: `../2.3.3-Jobs-To-Be-Done/README.md`
+- Idea Validation: `../2.3.5-Idea-Validation/README.md`
+- Problem-Solution Space: `../2.3.6-Problem-Solution-Space/README.md`
+- PRD Framework: `../../2.1-Strategy/2.1.4-PRD/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
 

@@ -368,3 +368,17 @@
 **Next Steps:**
 1. [Action 1] - [Owner] - [Due Date]
 2. [Action 2] - [Owner] - [Due Date]
+
+-----
+
+## References
+
+- PRD Framework: `1-prd-framework.md`
+- PRD JTBD Template: `3-prd-jtbd-template.md`
+- PRD README: `README.md`
+- Product Strategy: `../2.1.1-Product-Strategy/README.md`
+- OKR Framework: `../2.1.2-OKR/README.md`
+- Opportunity Assessment: `../../2.3-Discovery/2.3.4-Opportunity-Assessment/README.md`
+- Idea Validation: `../../2.3-Discovery/2.3.5-Idea-Validation/README.md`
+- Jobs to Be Done: `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

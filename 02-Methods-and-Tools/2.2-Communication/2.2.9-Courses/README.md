@@ -122,13 +122,14 @@ This folder contains frameworks and templates for designing engaging, brain-base
 - **Hybrid**: Balance in-person kinesthetic with digital collaboration
 - **Asynchronous**: Include reflection journals, peer feedback loops
 
-## Related Frameworks
+## Links
 
-This course design approach complements other facilitation frameworks in this repository:
-- Workshop facilitation techniques
-- Stakeholder engagement methods  
-- Team collaboration frameworks
-- Product management training approaches
+- Course Design Framework: `1-course-design-framework.md`
+- Course Design Template: `2-course-design-template.md`
+- Newsletter: `../2.2.1-Newsletter/README.md`
+- Stakeholder Management: `../2.2.7-Stakeholder-Management/README.md`
+- Meeting Agendas: `../2.2.2-Meeting-Agendas/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
 
 ---
 

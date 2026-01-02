@@ -157,3 +157,14 @@ Ways to get involved:
 - <Contact method>: <When to reach out>
 
 Thank you for being part of this journey. Your continued support and feedback help drive our success.
+
+-----
+
+## References
+
+- Newsletter Framework: `1-newsletter-framework.md`
+- Newsletter README: `README.md`
+- Company Context: `../../01-Company-Context/README.md`
+- OKR Framework: `../../2.1-Strategy/2.1.2-OKR/README.md`
+- Roadmap Framework: `../../2.1-Strategy/2.1.3-Roadmap/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

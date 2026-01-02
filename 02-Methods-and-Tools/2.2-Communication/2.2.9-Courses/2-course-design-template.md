@@ -206,10 +206,14 @@ Before finalizing your course design, check:
 - [ ] Are there opportunities for peer teaching/learning?
 - [ ] Does the energy flow make sense (high/low energy balance)?
 
-## Related Resources
+-----
 
-- **[Framework Document](./1-course-design-framework.md)** - Detailed explanations of all concepts
-- **[README](./README.md)** - Quick start guide and overview
+## References
 
----
+- Course Design Framework: `1-course-design-framework.md`
+- Course Design README: `README.md`
+- Newsletter: `../2.2.1-Newsletter/README.md`
+- Stakeholder Management: `../2.2.7-Stakeholder-Management/README.md`
+- Meeting Agendas: `../2.2.2-Meeting-Agendas/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
 

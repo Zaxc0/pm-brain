@@ -19,6 +19,41 @@ This repository builds on frameworks and methods from product management thought
 - **Book:** [Measure What Matters](https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221)
 - **Support:** [What Matters](https://www.whatmatters.com/)
 
+### North Star Framework
+- **Source:** Amplitude (Sean Ellis, John Cutler, and team)
+- **Resource:** [North Star Playbook](https://amplitude.com/north-star)
+- **Support:** [Amplitude Blog](https://amplitude.com/blog/north-star-metric)
+
+### RICE Scoring
+- **Source:** Sean McBride, Intercom
+- **Resource:** [Intercom Blog - RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/)
+- **Support:** [Intercom](https://www.intercom.com/)
+
+### ICE Scoring
+- **Source:** Intercom (related to RICE framework)
+- **Resource:** [Intercom Blog](https://www.intercom.com/blog/)
+- **Note:** ICE (Impact, Confidence, Ease) is a simplified variant of RICE
+
+### Double Diamond
+- **Source:** Design Council (UK)
+- **Resource:** [Design Council - Double Diamond](https://www.designcouncil.org.uk/our-work/skills-learning/resources/11-ways-get-started-design-methods/)
+- **Support:** [Design Council](https://www.designcouncil.org.uk/)
+
+### Opportunity Solution Tree
+- **Source:** Teresa Torres (part of Continuous Discovery Habits)
+- **Resource:** [Product Talk - Opportunity Solution Tree](https://www.producttalk.org/opportunity-solution-tree/)
+- **Note:** Included in Continuous Discovery Habits methodology (credited above)
+
+### HEART Framework (Personas)
+- **Source:** Google (Kerry Rodden, Hilary Hutchinson, Xin Fu)
+- **Resource:** [Google Research - HEART Framework](https://research.google/pubs/pub36299/)
+- **Paper:** "Measuring the User Experience on a Large Scale: User-Centered Metrics for Web Applications"
+
+### 4Cs Model (Brain-Based Learning)
+- **Source:** Based on brain-based instructional design principles
+- **Note:** Combines principles from cognitive science and instructional design
+- **Related:** Works by David Sousa, Eric Jensen on brain-based learning
+
 ---
 
 ## Support the Creators

@@ -1,8 +1,22 @@
-# 2.3.1 Roadmap Framework
+# Roadmap Framework
 
 ## Overview
 
 This framework helps product managers create roadmaps that effectively communicate product direction while maintaining the flexibility needed for successful product development.
+
+## Step 0: Braindump & Product Sense (Do this first!)
+
+**Before creating roadmap, braindump:**
+- What initiatives are you considering? Dump everything - don't prioritize yet.
+- What does your product sense tell you? What feels urgent vs. important?
+- What assumptions are you making about timing? List them.
+- What biases might affect your roadmap? (Recency bias? Squeaky wheel? Status quo?)
+- What would great product sense look like here? What would an experienced PM prioritize?
+
+**Product sense exercise:**
+- If you had to ship ONE thing in the next quarter, what would it be? Why?
+- What would make you say "this roadmap is obviously wrong"?
+- What would make you say "this roadmap is obviously right"?
 
 ## Core Philosophy
 
@@ -183,3 +197,16 @@ Track these roadmap effectiveness metrics:
 - Consider tools like simple spreadsheets, post-its, Confluence or JIRA Product Discovery
 - Maintain version control for roadmap updates
 - Archive old versions for retrospective analysis
+
+-----
+
+## References
+
+- Roadmap Template: `2-roadmap-template.md`
+- Roadmap Evaluation: `3-roadmap-evaluation.md`
+- Product Strategy: `../2.1.1-Product-Strategy/README.md`
+- OKR Framework: `../2.1.2-OKR/README.md`
+- PRD Framework: `../2.1.4-PRD/README.md`
+- North Star: `../2.1.6-North-Star/README.md`
+- Prioritization: `../2.1.7-Prioritization/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

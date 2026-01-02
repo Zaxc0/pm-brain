@@ -79,4 +79,13 @@
 
 ---
 
-*For complete framework guidelines, review schedules, and stakeholder communication strategies, see the [Roadmap Framework](2.1.3.1-roadmap-framework.md).*
+-----
+
+## References
+
+- Roadmap Framework: `1-roadmap-framework.md`
+- Roadmap Evaluation: `3-roadmap-evaluation.md`
+- Roadmap README: `README.md`
+- Product Strategy: `../2.1.1-Product-Strategy/README.md`
+- OKR Framework: `../2.1.2-OKR/README.md`
+- Prioritization: `../2.1.7-Prioritization/README.md`

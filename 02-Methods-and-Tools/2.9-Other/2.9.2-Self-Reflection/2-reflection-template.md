@@ -76,3 +76,13 @@
 - [ ] [Specific action based on reflection]
 - [ ] [Specific action based on reflection]
 
+-----
+
+## References
+
+- Self-Reflection Framework: `1-self-reflection-framework.md`
+- Self-Reflection README: `README.md`
+- Mental Models: `../2.9.1-Mental-Models/README.md`
+- Bias Framework: `../2.9.4-Bias/README.md`
+- All frameworks in `02-Methods-and-Tools/` benefit from reflection after use
+

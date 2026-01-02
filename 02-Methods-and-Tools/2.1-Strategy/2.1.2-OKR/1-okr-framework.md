@@ -1,8 +1,21 @@
 # OKR Framework
 
-## Introduction
+## Overview
 
 This framework helps you create and manage Objectives and Key Results (OKRs) that align teams around measurable outcomes. OKRs operationalize strategy into actionable, measurable goals that connect daily work to business results.
+
+## Step 0: Braindump & Product Sense (Do this first!)
+
+**Before setting OKRs, braindump:**
+- What outcomes are you trying to achieve? Dump everything - don't structure yet.
+- What does your product sense tell you? What feels like the right outcome?
+- What assumptions are you making? List them explicitly.
+- What biases might affect your OKRs? (Vanity metrics? Activity vs. outcome?)
+
+**Product sense exercise:**
+- If you had to pick ONE outcome that matters most, what would it be? Why?
+- What would make you say "these OKRs are obviously wrong"?
+- What would make you say "these OKRs are obviously right"?
 
 **When to use OKRs:**
 - Operationalizing strategic priorities into measurable outcomes
@@ -78,12 +91,16 @@ Keep 1–2 Objectives per team; 2–4 KRs per Objective.
 - Improve post-release operational reliability.
 - Strengthen governance and compliance for key product decisions.
 
+-----
+
 ## References
-- Templates: `./2-okr-template.md`
+
+- OKR Template: `2-okr-template.md`
+- OKR Evaluation: `3-okr-evaluation.md`
 - Company Context: `../../01-Company-Context/README.md`
-- Product Strategy: `../2.1.1-Product-Strategy/`
-- Roadmap: `../2.1.3-Roadmap/`
-- PRD Framework: `../2.1.4-PRD/`
-- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/`
+- Product Strategy: `../2.1.1-Product-Strategy/README.md`
+- Roadmap: `../2.1.3-Roadmap/README.md`
+- PRD Framework: `../2.1.4-PRD/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
 
 

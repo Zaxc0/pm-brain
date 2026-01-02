@@ -47,8 +47,12 @@ A comprehensive guide for product managers and product owners to create stakehol
 - Owners: PM/PO (content), Eng/Design/Data (review as needed)
 - Archive: keep `YYYY-MM.md` files per BU under company context
 
-## Links
-- Template: `./2-newsletter-template.md`
+-----
+
+## References
+
+- Newsletter Template: `2-newsletter-template.md`
 - Company Context: `../../01-Company-Context/README.md`
 - OKR Framework: `../../2.1-Strategy/2.1.2-OKR/README.md`
 - Roadmap Framework: `../../2.1-Strategy/2.1.3-Roadmap/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`

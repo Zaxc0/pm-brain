@@ -55,4 +55,16 @@ Context
 Example (brief)
 - Job: When [trigger/situation], I want to [job/goal] so I can [desired outcome].
 - Trigger: [Key event or situation that makes this job relevant].
-- Outcome (Success measures): [What “good” looks like, in their words and/or metrics].
+- Outcome (Success measures): [What "good" looks like, in their words and/or metrics].
+
+-----
+
+## References
+
+- Personas Framework: `1-personas-framework.md`
+- Personas README: `README.md`
+- Research Interviews: `../../2.3-Discovery/2.3.1-Research-Interviews/README.md`
+- Jobs to Be Done: `../../2.3-Discovery/2.3.3-Jobs-To-Be-Done/README.md`
+- Continuous Discovery: `../../2.3-Discovery/2.3.2-Continuous-Discovery-Habits/README.md`
+- PRD Framework: `../2.1.4-PRD/README.md`
+- Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
