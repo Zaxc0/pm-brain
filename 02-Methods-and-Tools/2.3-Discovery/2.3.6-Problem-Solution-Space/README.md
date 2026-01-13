@@ -5,7 +5,23 @@
 This framework helps product teams systematically explore ambiguous problems and generate multiple solution options before committing to building. Problem-solution space exploration is NOT about finding the quickest answer—it's about finding the RIGHT answer.
 
 ## Files
-- `1-problem-solution-space-framework.md` — Complete framework including Double Diamond process, Opportunity Solution Tree, and supporting methods
+
+**Main Framework:**
+- `1-problem-solution-space-framework.md` — Core framework overview, philosophy, selection guide, best practices, and common pitfalls
+
+**Double Diamond:**
+- `2.3.6.1-Double-Diamond/1-double-diamond-guide.md` — Complete Double Diamond process guide (Discover → Define → Develop → Deliver)
+- `2.3.6.1-Double-Diamond/2-double-diamond-template.md` — Template for Double Diamond exploration
+
+**Opportunity Solution Tree:**
+- `2.3.6.2-Opportunity-Solution-Tree/1-opportunity-solution-tree-guide.md` — Complete Opportunity Solution Tree guide
+- `2.3.6.2-Opportunity-Solution-Tree/2-opportunity-solution-tree-template.md` — Template for Opportunity Solution Tree
+
+**Supporting Frameworks:**
+- `2.3.6.3-Supporting-Frameworks/1-supporting-frameworks.md` — Jobs to Be Done, Five Whys, and How Might We methods
+
+**Templates:**
+- `2-problem-solution-space-template.md` — Master template to help choose and start with the right framework
 
 ## How to Use This Framework
 
@@ -23,24 +39,31 @@ This framework helps product teams systematically explore ambiguous problems and
 - What would make you say "we're solving the right problem"?
 
 ### Step 1: Review Framework
-Read `1-problem-solution-space-framework.md` to understand exploration methods
+Read `1-problem-solution-space-framework.md` to understand exploration methods and framework selection
 
 ### Step 2: Choose Your Approach
-Select Double Diamond, Opportunity Solution Tree, or both based on your needs
+- **Double Diamond:** For focused 6-12 week exploration with clear phases
+- **Opportunity Solution Tree:** For continuous discovery practice
+- **Both:** OST for continuous discovery, Double Diamond for focused sprints
 
-### Step 3: Explore Problem Space
+### Step 3: Use Appropriate Guide & Template
+- **Double Diamond:** Read `2.3.6.1-Double-Diamond/1-double-diamond-guide.md`, then use `2.3.6.1-Double-Diamond/2-double-diamond-template.md`
+- **Opportunity Solution Tree:** Read `2.3.6.2-Opportunity-Solution-Tree/1-opportunity-solution-tree-guide.md`, then use `2.3.6.2-Opportunity-Solution-Tree/2-opportunity-solution-tree-template.md`
+- **Supporting Methods:** Reference `2.3.6.3-Supporting-Frameworks/1-supporting-frameworks.md` for JTBD, Five Whys, and HMW
+
+### Step 4: Explore Problem Space
 Use discovery methods to understand the problem deeply
 
-### Step 4: Define the Problem
+### Step 5: Define the Problem
 Synthesize insights into a clear problem statement
 
-### Step 5: Generate Solutions
+### Step 6: Generate Solutions
 Create multiple diverse solutions for the defined problem
 
-### Step 6: Test and Select
+### Step 7: Test and Select
 Validate solutions with users and select the best option
 
-### Step 7: Self-Reflection
+### Step 8: Self-Reflection
 After exploration, reflect:
 - How did your understanding evolve?
 - What surprised you?
@@ -53,6 +76,25 @@ After exploration, reflect:
 - Multiple solution options to evaluate
 - Need to align team on problem definition
 
+## Framework Selection Guide
+
+**Use Double Diamond when:**
+- Starting a new product or major feature
+- Need cross-functional alignment on process
+- Stakeholders need visibility into exploration
+- Timeline allows for structured phases (8-12 weeks)
+
+**Use Opportunity Solution Tree when:**
+- Continuous discovery practice
+- Multiple opportunities to evaluate simultaneously
+- Need to connect solutions back to outcomes
+- Want to maintain big-picture view over time
+
+**Use both together when:**
+- Major strategic initiatives
+- OST for continuous discovery, Double Diamond for focused sprints
+- OST provides structure, Double Diamond provides process
+
 ## How to Maintain
 
 - **During Exploration**: Document learnings and update opportunity/solution maps
@@ -60,10 +102,10 @@ After exploration, reflect:
 - **Quarterly Review**: Review exploration effectiveness and improve process
 
 ## Links
+
 - Research Interviews: `../2.3.1-Research-Interviews/README.md`
 - Continuous Discovery Habits: `../2.3.2-Continuous-Discovery-Habits/README.md`
 - Jobs to Be Done: `../2.3.3-Jobs-To-Be-Done/README.md`
 - Opportunity Assessment: `../2.3.4-Opportunity-Assessment/README.md`
 - PRD Framework: `../../2.1-Strategy/2.1.4-PRD/README.md`
 - Self-Reflection: `../../2.9-Other/2.9.2-Self-Reflection/README.md`
-
