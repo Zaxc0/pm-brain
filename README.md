@@ -152,15 +152,11 @@ Layer 3: What You're Building (04-Initiatives/)
 
 ### Quick Start with Product Sense
 
-**Choose your mode (public/private/team):**
-```bash
-# Run interactive setup
-bash 00-Meta/SETUP.sh
-# Select mode: public (default), private, or team
+**Choose your mode (public/private/team):** Read [`00-Meta/MODE-SELECTION-GUIDE.md`](./00-Meta/MODE-SELECTION-GUIDE.md), then apply mode manually:
 
-# Or read mode guide first
-cat 00-Meta/MODE-SELECTION-GUIDE.md
-```
+- **Public** (default): do nothing; everything can be tracked.
+- **Private:** `cat .gitignore.private >> .gitignore` then commit.
+- **Team:** `cat .gitignore.team >> .gitignore` then commit.
 
 **Modes:**
 - **🌍 Public** (default): Everything tracked (great for portfolios)
@@ -244,8 +240,7 @@ See `02-Methods-and-Tools/README.md` for complete navigation guide.
 Two ways to use this:
 
 1. **Fork privately** (recommended for real company context)
-   - Run `bash 00-Meta/SETUP.sh` after forking
-   - Choose **Private** or **Team** mode to keep your content private
+   - After forking, choose **Private** or **Team** mode manually: append `.gitignore.private` or `.gitignore.team` to `.gitignore`, then commit
    - See [`00-Meta/MODE-SELECTION-GUIDE.md`](./00-Meta/MODE-SELECTION-GUIDE.md) for details
    
 2. **Contribute improvements** to public template (generic frameworks, guides, patterns)

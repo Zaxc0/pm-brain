@@ -191,7 +191,7 @@ Your PM-Brain can run in three modes: **Public**, **Private**, or **Team**. What
 - ✓ Templates and frameworks tracked for team sharing
 - Best for: Collaborative framework development
 
-**To check or change your mode:** See `00-Meta/README.md` or run `bash 00-Meta/SETUP.sh`
+**To check or change your mode:** See `00-Meta/README.md` or `00-Meta/MODE-SELECTION-GUIDE.md`
 
 ### General Guidance
 

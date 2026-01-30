@@ -155,24 +155,7 @@ Are you using this for work at a company?
 
 ## How to Switch Modes
 
-### Interactive Setup (Recommended)
-
-Run the setup script and follow prompts:
-
-```bash
-bash 00-Meta/SETUP.sh
-```
-
-The script will:
-1. Ask which mode you want
-2. Update your `.gitignore` accordingly
-3. Configure git commit template
-4. Verify directory structure
-5. Create starter files
-
-### Manual Setup
-
-If you prefer manual configuration:
+Mode is set **manually** by appending the right ignore patterns to `.gitignore`.
 
 #### Switch to Private Mode
 
@@ -272,8 +255,8 @@ git push
 **Action:**
 ```bash
 # If unsure, start private
-bash 00-Meta/SETUP.sh
-# Select "Private Mode"
+cat .gitignore.private >> .gitignore
+git add .gitignore && git commit -m "setup: Switch to private mode"
 
 # When ready to share, switch to public
 # Edit .gitignore, remove private patterns
@@ -289,8 +272,8 @@ bash 00-Meta/SETUP.sh
 **Action:**
 ```bash
 # After forking
-bash 00-Meta/SETUP.sh
-# Select "Team Mode"
+cat .gitignore.team >> .gitignore
+git add .gitignore && git commit -m "setup: Switch to team mode"
 
 # Invite team to fork and contribute
 # Personal logs stay on individual machines
@@ -322,8 +305,8 @@ bash 00-Meta/SETUP.sh
 
 **Action:**
 ```bash
-bash 00-Meta/SETUP.sh
-# Select "Private Mode"
+cat .gitignore.private >> .gitignore
+git add .gitignore && git commit -m "setup: Switch to private mode"
 
 # Use PM-Brain for personal growth
 # Share only frameworks (not work examples)
@@ -403,8 +386,8 @@ git push --force
 **Sort of.** The three modes are presets, but you can customize:
 
 ```bash
-# Start with a mode
-bash 00-Meta/SETUP.sh
+# Start with a mode (e.g. append .gitignore.team)
+cat .gitignore.team >> .gitignore
 
 # Then manually edit .gitignore to tweak
 vim .gitignore
@@ -422,9 +405,6 @@ vim .gitignore
 After switching modes, verify your setup:
 
 ```bash
-# Run validation script
-bash 00-Meta/validate-setup.sh
-
 # Check what's tracked vs ignored
 git status
 
@@ -453,17 +433,13 @@ cat .gitignore
 ## Quick Reference Commands
 
 ```bash
-# Interactive mode selection
-bash 00-Meta/SETUP.sh
-
-# Manual switch to private
+# Switch to private mode
 cat .gitignore.private >> .gitignore
+git add .gitignore && git commit -m "setup: Switch to private mode"
 
-# Manual switch to team
+# Switch to team mode
 cat .gitignore.team >> .gitignore
-
-# Validate setup
-bash 00-Meta/validate-setup.sh
+git add .gitignore && git commit -m "setup: Switch to team mode"
 
 # Check current mode
 cat .gitignore | grep "PM-Brain:"
@@ -472,5 +448,3 @@ cat .gitignore | grep "PM-Brain:"
 -----
 
 **Questions?** See `00-Meta/README.md` or review `.gitignore` comments for more details.
-
-**Ready to choose?** Run `bash 00-Meta/SETUP.sh` now.

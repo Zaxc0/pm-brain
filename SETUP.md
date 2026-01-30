@@ -71,7 +71,7 @@ pm-brain/
 
 ## ⚙️ Step 3: Choose Public / Private / Team Mode
 
-This repo supports three usage modes. The choice is manual and done with `.gitignore` patterns in **your fork/clone**.
+This repo supports three usage modes. Setup is **manual and simple**: you choose a mode by appending the right `.gitignore` template and committing. No scripts required.
 
 ### Modes at a Glance
 

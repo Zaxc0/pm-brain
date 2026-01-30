@@ -20,12 +20,10 @@
 # SWITCHING MODES
 # ============================================
 # To switch to PRIVATE mode (personal learning only):
-#   Option 1 (Interactive): bash 00-Meta/SETUP.sh
-#   Option 2 (Manual): cat .gitignore.private >> .gitignore
+#   cat .gitignore.private >> .gitignore
 #
 # To switch to TEAM mode (share templates, keep personal logs private):
-#   Option 1 (Interactive): bash 00-Meta/SETUP.sh
-#   Option 2 (Manual): cat .gitignore.team >> .gitignore
+#   cat .gitignore.team >> .gitignore
 #
 # See 00-Meta/README.md or 00-Meta/MODE-SELECTION-GUIDE.md for details.
 #
