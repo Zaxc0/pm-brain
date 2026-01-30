@@ -88,6 +88,18 @@ A living knowledge base that bridges the gap between Product Management framewor
 
 4. **Optional:** Point your IDE's AI tools at this repo as project context.
 
+### Option 3: Install as a Cursor skill (skills.sh)
+
+**Best for:** Cursor users who want the PM Brain workflow skill in any project without cloning the full repo.
+
+Install the PM Brain skill so Cursor’s agent can use it when you work on product management tasks:
+
+```bash
+npx skills add andreaskelm/pm-brain
+```
+
+This installs the skill from the [Agent Skills Directory](https://skills.sh/) into your `.cursor/skills/` directory. The skill guides the AI through PM Brain frameworks (braindump-first, strategy → discovery → execution, product sense). Use it in any repo where you do PM work.
+
 ---
 
 ## 🏗️ System Structure Philosophy
