@@ -2,8 +2,6 @@
 
 This repository builds on frameworks and methods from product management thought leaders. Where frameworks are directly based on or inspired by specific methodologies, they are credited below.
 
-**Using this repo:** For where to start (product thinking, braindump-first workflow, and navigation to Strategy, Discovery, Execution, Communication), see [0-start-here-product-thinking.md](02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/0-start-here-product-thinking.md) and [PRODUCT-SENSE-RULES.md](PRODUCT-SENSE-RULES.md). For setup and usage guidelines, see [SETUP.md](SETUP.md) and [GUIDELINES.md](GUIDELINES.md).
-
 ## Frameworks & Methods
 
 ### Continuous Discovery Habits
