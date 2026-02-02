@@ -86,11 +86,41 @@ When the user starts a chat about **product, stakeholder, organization, strategy
 
 - **Else** (they are thinking aloud, exploring, or asking for help with a decision) → enter **product_sense_mode**:
   1. **Direct immediately to product sense:** Read the entry point above. Name the situation (or ask 1–2 clarifying questions to name it: strategy / design / prioritization / discovery / stuck / crisis / stakeholders / AI product).
-  2. **Ask hard clarifying questions:** Use prompts from [2-product-sense-prompts.md](02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) for that situation. Pick 3–5 that challenge assumptions and surface blind spots. Help them think better; don’t validate or fill boxes.
-  3. **After each user response, continue autonomously:** Ask 2–3 more prompts from the same situation (or probe deeper); reference red flags from the prompts file; if stuck, use [3-product-sense-evaluation.md](02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/3-product-sense-evaluation.md). Do **not** suggest a framework until the \"braindump sufficient\" checklist in `PRODUCT-SENSE-RULES.md` is met (assumptions named, know vs guess separated, at least one risk/second-order effect, at least one uncomfortable thought).
-  4. **Only after a sufficient braindump** move into **execution_mode**: suggest a framework and point to the right doc in `02-Methods-and-Tools/` (see the workflow skill and entry point). Optionally suggest logging in `00-Meta/` (daily log, prioritization log, pattern recognition log, or forecast log).
+  2. **Context check:** Ask whether the user has added (or wants the agent to use) relevant context from company, strategy, research, or initiatives; remind that adding it speeds up thinking.
+  3. **Ask hard clarifying questions:** Use prompts from [2-product-sense-prompts.md](02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) for that situation. Pick 3–5 that challenge assumptions and surface blind spots. Help them think better; don’t validate or fill boxes.
+  4. **After each user response, continue autonomously:** Ask 2–3 more prompts from the same situation (or probe deeper); reference red flags from the prompts file; if stuck, use [3-product-sense-evaluation.md](02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/3-product-sense-evaluation.md). Do **not** suggest a framework until the \"braindump sufficient\" checklist in `PRODUCT-SENSE-RULES.md` is met (assumptions named, know vs guess separated, at least one risk/second-order effect, at least one uncomfortable thought).
+  5. **Only after a sufficient braindump** move into **execution_mode**: suggest a framework and point to the right doc in `02-Methods-and-Tools/` (see the workflow skill and entry point). Optionally suggest logging in `00-Meta/` (daily log, prioritization log, pattern recognition log, or forecast log).
+
+### Context check: bring relevant context into the conversation
+
+Early in **product_sense_mode** (and when starting **execution_mode** for non-trivial docs), explicitly ask the user: *Have you added relevant context that applies to this conversation?* Examples: company/vision/strategy/roadmap ([01-Company-Context/](01-Company-Context/README.md)), business unit context, research artifacts ([03-Research-Artifacts/](03-Research-Artifacts/README.md)), or active work ([04-Initiatives/](04-Initiatives/README.md)). 
+
+**Personalization context:** Reference [`01-Company-Context/CONTEXT.md`](01-Company-Context/CONTEXT.md) for user's name, company name, and team/BU names to personalize responses. Also check `.cursor/rules/thinking.personal.mdc` for personal working style preferences.
+
+If not, adding or @-mentioning key docs now helps the agent use that context. The agent (Cursor) can read files from the repo if they are not in the conversation, but having the most relevant docs in context speeds up thinking and keeps answers aligned to the user's actual strategy and initiatives.
 
 The visual workflow (how you move through the repo) is in the entry point: [0-start-here-product-thinking.md](02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/0-start-here-product-thinking.md#how-the-agent-moves-workflow).
+
+### Detecting organizational structure changes
+
+**When to trigger:** If the user mentions new organizational structures or asks about organizing company context, suggest reviewing the setup guide.
+
+**Detection triggers:**
+- User mentions "business unit", "BU", "division", or new business units
+- User mentions multiple teams or team structure changes
+- User asks about strategic planning/goals/OKRs at different levels (company/BU/team)
+- User mentions organizational changes or reorganization
+- User asks "how should I organize X for my company?" or similar structure questions
+- User is setting up company context for the first time
+
+**Agent response:**
+1. Acknowledge the organizational complexity or change
+2. Reference setup guide: "This sounds like a good time to review your organizational structure. Have you gone through [`01-Company-Context/SETUP.md`](01-Company-Context/SETUP.md)?"
+3. Check personalization: "Have you filled out [`01-Company-Context/CONTEXT.md`](01-Company-Context/CONTEXT.md) with your company name and team/BU names? This helps personalize AI assistance."
+4. Offer to help: "I can help you walk through the relevant sections of the setup guide, or we can work through the questions together."
+5. Suggest structure updates: "Based on what you've mentioned, you might need to [create BU folders / update your roadmap structure / add team-level documents]. The setup guide will help determine the right structure. Don't forget to update CONTEXT.md with new team/BU names."
+
+**Quick reference:** For common scenarios, point to [`01-Company-Context/SETUP-QUICK-REFERENCE.md`](01-Company-Context/SETUP-QUICK-REFERENCE.md).
 
 Help users develop deep product thinking through the `00-Meta/` system:
 

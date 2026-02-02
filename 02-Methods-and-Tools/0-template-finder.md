@@ -28,6 +28,6 @@ Pick one and open the README + template in that folder. Paths are relative to `0
 
 ---
 
-**Agent note:** For non-trivial docs (strategy, PRD, big opportunity), you can optionally ask 1–2 short preflight prompts from `2-product-sense-prompts.md` (e.g. \"Why this, why now?\" / \"What do you already know vs. guess?\") before you help fill in the template.
+**Agent note:** For non-trivial docs (strategy, PRD, big opportunity), you can optionally ask 1–2 short preflight prompts from `2-product-sense-prompts.md` (e.g. \"Why this, why now?\" / \"What do you already know vs. guess?\") before you help fill in the template. For non-trivial docs, ask whether the user has added relevant company/initiative/research context, or if you should reference [01-Company-Context/](../01-Company-Context/README.md), [03-Research-Artifacts/](../03-Research-Artifacts/README.md), or [04-Initiatives/](../04-Initiatives/README.md).
 
 **Reminder:** For non-trivial docs (strategy, PRD, big opportunity), braindump first: [0-start-here-product-thinking.md](2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/0-start-here-product-thinking.md).

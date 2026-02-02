@@ -52,8 +52,20 @@
 # ============================================
 
 # Company context (keep company details private)
+# Note: CONTEXT.md can be optionally tracked for team consistency (see below)
 01-Company-Context/*.md
 !01-Company-Context/README.md
+!01-Company-Context/SETUP.md
+!01-Company-Context/SETUP-QUICK-REFERENCE.md
+# Uncomment the next line if you want to share CONTEXT.md with your team for consistent naming:
+# !01-Company-Context/CONTEXT.md
+
+# ============================================
+# Personal Configuration
+# ============================================
+
+# Personal working style and preferences (keep private - each team member has their own)
+.cursor/rules/thinking.personal.mdc
 
 # ============================================
 # Shared Content (Tracked)

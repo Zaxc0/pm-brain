@@ -32,6 +32,7 @@ Your raw, unstructured thinking is more valuable than perfectly formatted templa
 
 When you have a product decision, problem, or opportunity:
 
+1. **Consider what context to bring into the conversation:** company/vision/strategy, roadmap, research artifacts, active initiatives ([01-Company-Context/](01-Company-Context/README.md), [03-Research-Artifacts/](03-Research-Artifacts/README.md), [04-Initiatives/](04-Initiatives/README.md)). Add or @-mention key docs so the agent can use them; this speeds up product thinking.
 1. **Don't open a template yet**
 1. **Open a blank doc** (or voice memo, or whiteboard)
 1. **Ask yourself the messy questions** (see `02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md`)

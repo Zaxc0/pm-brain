@@ -2,9 +2,35 @@
 
 This directory contains the foundational company context documents that provide strategic direction, organizational structure, and product principles. These documents serve as the source of truth for company-wide product and technology strategy.
 
+**For agents:** This folder is one of the context sources the PM Brain agent asks about early in product_sense_mode (and when starting execution_mode for non-trivial docs). If the user has not added relevant company context to the conversation, suggest adding or @-mentioning key docs from here (e.g. vision, strategy, roadmap, stakeholders); having them in context speeds up thinking and keeps answers aligned to the user's actual strategy. Paths below are from repo root.
+
+## First Time Setup
+
+**New to this directory?** Start here:
+
+👉 **[`SETUP.md`](SETUP.md)** - Step-by-step guide to set up your company context structure based on your unique organizational setup (business units, teams, strategic planning structure, etc.)
+
+**Quick reference:** [`SETUP-QUICK-REFERENCE.md`](SETUP-QUICK-REFERENCE.md) - One-page checklist for common scenarios
+
+**Personalization:** Start by filling out [`CONTEXT.md`](CONTEXT.md) with your name, company name, and team/BU names. This personalizes AI assistance and makes documents more relevant.
+
+The setup guide helps you:
+- Discover your organizational structure through probing questions
+- Plan the right document structure (flat, BU-level, team-level, etc.)
+- Implement incrementally (no need to do everything at once)
+- Accommodate different structures (company/BU/team-level OKRs, multiple teams, etc.)
+
 ## Overview
 
 These documents should be the outcome of actual strategic work and organizational planning. The placeholder content should be replaced with your company's actual information developed through proper processes.
+
+**Organizational structure flexibility:** This directory can accommodate any organizational model:
+- **Flat structure** (startup, single team) - All documents at root level
+- **Business unit structure** (enterprise, multiple BUs) - BU subfolders with BU-specific documents
+- **Team structure** (multiple teams) - Team-level organization as needed
+- **Mixed structures** - Any combination of the above
+
+See [`SETUP.md`](SETUP.md) to determine the right structure for your company.
 
 ## Document Structure
 
@@ -38,11 +64,18 @@ This structure creates a natural flow: **Why → What → How → What Exists �
 
 ## How to Use This Directory
 
+**First time setup:**
+1. **Run the setup guide** - Go through [`SETUP.md`](SETUP.md) to understand your organizational structure and plan your document structure
+2. **Create core documents** - Start with Vision & Strategy, then add other documents incrementally
+3. **Add organizational layers** - Create BU/team subfolders as needed based on your structure
+
+**Ongoing use:**
 1. **Start with Vision & Strategy** - These documents should be created first through the Product Strategy framework
 2. **Define Principles** - Use product principles to guide decision-making
 3. **Document Portfolio** - Catalog your products and customer segments
-4. **Build Roadmap** - Create company-wide roadmap aligned with strategy
+4. **Build Roadmap** - Create company-wide roadmap aligned with strategy (and BU/team roadmaps if applicable)
 5. **Maintain Stakeholders** - Keep stakeholder directory current
+6. **Update structure** - When organizational changes occur (new BUs, teams, OKR structure changes), review [`SETUP.md`](SETUP.md) to see if your structure needs updating, and update [`CONTEXT.md`](CONTEXT.md) with new names
 
 ---
 
@@ -79,15 +112,16 @@ I'll start by telling you which parts of our company context feel most unclear r
 
 - **Quarterly Reviews**: Review all documents quarterly for accuracy and relevance
 - **After Major Changes**: Update relevant documents when strategy, org structure, or priorities change
+- **Organizational Structure Changes**: When new BUs, teams, or strategic planning structures emerge, review [`SETUP.md`](SETUP.md) to determine if your directory structure needs updating, and update [`CONTEXT.md`](CONTEXT.md) accordingly
 - **Version Control**: Use git to track changes and maintain history
 - **Stakeholder Updates**: Update stakeholder directory when org changes occur
 
 ## Related Methods & Tools
 
-- Product Strategy: see `../02-Methods-and-Tools/2.1-Strategy/2.1.1-Product-Strategy/`
-- Roadmap: see `../02-Methods-and-Tools/2.1-Strategy/2.1.3-Roadmap/`
-- OKRs: see `../02-Methods-and-Tools/2.1-Strategy/2.1.2-OKR/`
-- Personas: see `../02-Methods-and-Tools/2.1-Strategy/2.1.5-Personas/`
-- Self-Reflection: see `../02-Methods-and-Tools/2.9-Other/2.9.2-Self-Reflection/`
+- Strategic foundations: [02-Methods-and-Tools/2.1-Strategy/2.1.1-Strategic-Foundations/](../02-Methods-and-Tools/2.1-Strategy/2.1.1-Strategic-Foundations/README.md)
+- Roadmap: [02-Methods-and-Tools/2.1-Strategy/2.1.2-Strategic-Execution/2-Roadmap/](../02-Methods-and-Tools/2.1-Strategy/2.1.2-Strategic-Execution/2-Roadmap/README.md)
+- OKRs: [02-Methods-and-Tools/2.1-Strategy/2.1.2-Strategic-Execution/1-OKR/](../02-Methods-and-Tools/2.1-Strategy/2.1.2-Strategic-Execution/1-OKR/README.md)
+- Personas: [02-Methods-and-Tools/2.3-Execution/2.3.5-Personas/](../02-Methods-and-Tools/2.3-Execution/2.3.5-Personas/README.md)
+- Self-Reflection: [02-Methods-and-Tools/2.0-Foundations/2.0.3-Self-Reflection/](../02-Methods-and-Tools/2.0-Foundations/2.0.3-Self-Reflection/README.md)
 
 

@@ -75,6 +75,7 @@ Most framework folders follow this structure:
 When a user wants to work on something or is thinking/braindumping (the agent is in **product_sense_mode**): **apply the golden rule from `PRODUCT-SENSE-RULES.md`** (braindump before structure), including the \"braindump sufficient\" checklist. Use prompts from `02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md` for the relevant context (PRD, prioritization, strategy, research, stuck).
 
 1. **Listen and probe**
+   - Ask if the user has added (or should add) relevant context from [01-Company-Context/](../../../../01-Company-Context/README.md), [03-Research-Artifacts/](../../../../03-Research-Artifacts/README.md), or [04-Initiatives/](../../../../04-Initiatives/README.md); having it in the conversation speeds up thinking.
    - What's the core problem or opportunity?
    - What stage are they at? (ideation, validation, building, shipping)
    - What constraints exist?

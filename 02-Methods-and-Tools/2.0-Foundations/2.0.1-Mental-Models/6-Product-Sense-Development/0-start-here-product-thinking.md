@@ -100,8 +100,9 @@ So: **AGENTS** is always on; **rules** fire when the conversation topic matches;
 
 1. **Golden rule:** Braindump before structure. Don't open a framework or template yet.
 2. **Name the situation:** Strategy / Design / Prioritization / Discovery / Stuck / Crisis (or Teardown / Stakeholders / AI product).
-3. **Use the braindump prompts** for that situation: [2-product-sense-prompts.md](2-product-sense-prompts.md). Run the 30-second pre-flight and check red flags for that situation.
-4. **Then** open the relevant execution framework (PRD, OKR, Opportunity Assessment, etc.) and use your braindump to fill it.
+3. **Context:** Ask if the user has added (or wants the agent to use) relevant context from company, strategy, research, or initiatives.
+4. **Use the braindump prompts** for that situation: [2-product-sense-prompts.md](2-product-sense-prompts.md). Run the 30-second pre-flight and check red flags for that situation.
+5. **Then** open the relevant execution framework (PRD, OKR, Opportunity Assessment, etc.) and use your braindump to fill it.
 
 **Progressive depth:** Start with the [Always-Ask Core Prompts](2-product-sense-prompts.md) and 30-second pre-flight. If you need more, use the situation-specific section and [red flags](2-product-sense-prompts.md) in the prompts file. If you need mental models, bias check, or meta-thinking, follow the links below.
 
@@ -136,13 +137,14 @@ When the user is thinking about a product decision, the agent is in **product_se
 
 0. **Adopt the persona and background** in this file: [Persona & background (for agent)](#persona-and-background-for-agent).
 1. **Start from here.** Name the situation (or ask the user) so you know which part of the prompts file to use.
-2. **Use prompts from** [2-product-sense-prompts.md](2-product-sense-prompts.md) for that situation. Pick 3–5 that feel uncomfortable; challenge assumptions, don't validate.
-3. **If stuck:** Use [3-product-sense-evaluation.md](3-product-sense-evaluation.md).
-4. **If AI product:** Use [5-ai-product-sense.md](5-ai-product-sense.md) and the [For AI Product Decisions](2-product-sense-prompts.md#for-ai-product-decisions) section.
-5. **If bias or thinking quality:** Reference [6-meta-thinking-for-product-sense.md](6-meta-thinking-for-product-sense.md) and the canonical [2.0.2-Bias/1-bias-framework.md](../../2.0.2-Bias/1-bias-framework.md); don't duplicate bias lists.
-6. **Stay in product_sense_mode** until the \"braindump sufficient\" checklist in `PRODUCT-SENSE-RULES.md` is met (assumptions named, know vs guess separated, at least one risk/second-order effect, at least one uncomfortable thought).
-7. **Then move into execution_mode:** suggest a framework (PRD, prioritization, etc.) and point to the right doc using the workflow skill: see `.cursor/skills/pm-brain-workflow/SKILL.md` for frameworks by situation. Optionally suggest logging in [00-Meta/](../../../../../00-Meta/) (daily log, prioritization log, pattern recognition log, or forecast log).
-8. **After substantial decisions:** briefly enter a meta step by suggesting logging in `00-Meta` and, when appropriate, asking whether any rules or practices should evolve (see `.cursor/rules/thinking.mdc`).
+2. **Context check:** Ask whether the user has added (or wants you to reference) relevant context from [01-Company-Context/](../../../../../01-Company-Context/README.md), [03-Research-Artifacts/](../../../../../03-Research-Artifacts/README.md), or [04-Initiatives/](../../../../../04-Initiatives/README.md). Remind that having key docs in the conversation speeds up thinking; you can also read files from the repo if not in chat.
+3. **Use prompts from** [2-product-sense-prompts.md](2-product-sense-prompts.md) for that situation. Pick 3–5 that feel uncomfortable; challenge assumptions, don't validate.
+4. **If stuck:** Use [3-product-sense-evaluation.md](3-product-sense-evaluation.md).
+5. **If AI product:** Use [5-ai-product-sense.md](5-ai-product-sense.md) and the [For AI Product Decisions](2-product-sense-prompts.md#for-ai-product-decisions) section.
+6. **If bias or thinking quality:** Reference [6-meta-thinking-for-product-sense.md](6-meta-thinking-for-product-sense.md) and the canonical [2.0.2-Bias/1-bias-framework.md](../../2.0.2-Bias/1-bias-framework.md); don't duplicate bias lists.
+7. **Stay in product_sense_mode** until the \"braindump sufficient\" checklist in `PRODUCT-SENSE-RULES.md` is met (assumptions named, know vs guess separated, at least one risk/second-order effect, at least one uncomfortable thought).
+8. **Then move into execution_mode:** suggest a framework (PRD, prioritization, etc.) and point to the right doc using the workflow skill: see `.cursor/skills/pm-brain-workflow/SKILL.md` for frameworks by situation. Optionally suggest logging in [00-Meta/](../../../../../00-Meta/) (daily log, prioritization log, pattern recognition log, or forecast log).
+9. **After substantial decisions:** briefly enter a meta step by suggesting logging in `00-Meta` and, when appropriate, asking whether any rules or practices should evolve (see `.cursor/rules/thinking.mdc`).
 
 Do not repeat content that lives elsewhere; reference it.
 
@@ -169,6 +171,12 @@ When the user starts a chat about product, stakeholder, org, strategy, roadmap, 
 │ AGENT: Name the situation (or ask 1–2 clarifying questions):                │
 │        Strategy / Design / Prioritization / Discovery / Stuck / Crisis /    │
 │        Stakeholders / AI product.                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+                                        │
+                                        ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ AGENT: Optionally ask: Have you added relevant context (company, strategy,   │
+│        research, initiatives)? If not, adding or @-mentioning key docs helps.│
 └─────────────────────────────────────────────────────────────────────────────┘
                                         │
                                         ▼
@@ -202,4 +210,4 @@ When the user starts a chat about product, stakeholder, org, strategy, roadmap, 
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-**Summary:** Entry point → Name situation → Prompts file (hard questions) → After each response, continue with more prompts or probe deeper; guide braindump → Cross-link evaluation/bias/meta as needed → When the \"braindump sufficient\" checklist in `PRODUCT-SENSE-RULES.md` is met, switch from **product_sense_mode** into **execution_mode** → Suggest the right framework (via pm-brain-workflow skill) + optionally suggest logging in 00-Meta and evolving rules. The agent stays in “think first” mode until the user has done real braindump work.
+**Summary:** Entry point → Name situation → Context check → Prompts file (hard questions) → After each response, continue with more prompts or probe deeper; guide braindump → Cross-link evaluation/bias/meta as needed → When the \"braindump sufficient\" checklist in `PRODUCT-SENSE-RULES.md` is met, switch from **product_sense_mode** into **execution_mode** → Suggest the right framework (via pm-brain-workflow skill) + optionally suggest logging in 00-Meta and evolving rules. The agent stays in “think first” mode until the user has done real braindump work.

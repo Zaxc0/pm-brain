@@ -122,47 +122,49 @@ For details and decision help, see `00-Meta/MODE-SELECTION-GUIDE.md`.
 
 ### Priority 1: Company Context (`01-Company-Context/`)
 
-**This is the most important step.** Replace placeholder content with your actual company information.
+**This is the most important step.** Set up your company context structure based on your unique organizational setup.
 
-#### Files to Update:
+#### Step 1: Personalize Your Context
 
-1. **`1-company-vision.md`**
-   - Your company's vision statement
-   - What you're building toward
-   - Long-term aspirations
+1. **Fill out `CONTEXT.md`** (2-3 minutes)
+   - Your name and role
+   - Company name (this replaces `[Company]` placeholders throughout)
+   - Team and business unit names (if applicable)
 
-2. **`2-company-strategy.md`**
-   - Strategic goals and priorities
-   - How you win in the market
-   - Key strategic decisions
+#### Step 2: Run the Setup Guide
 
-3. **`3-company-product-principles.md`**
-   - Product principles that guide decisions
-   - What "good" looks like for your product
-   - Non-negotiables
+2. **Follow the setup guide** [`01-Company-Context/SETUP.md`](01-Company-Context/SETUP.md)
+   - Discover your organizational structure through probing questions
+   - Plan the right document structure (flat, BU-level, team-level, etc.)
+   - Implement incrementally - you don't need to do everything at once
 
-4. **`4-company-product-explanation.md`**
-   - What your product does
-   - Who it's for
-   - How it creates value
+**The setup guide helps you:**
+- Understand if you need business unit subfolders
+- Determine how to organize OKRs (company/BU/team level)
+- Plan roadmap structure (single vs BU-specific vs team-specific)
+- Set up stakeholder organization
 
-5. **`5-company-roadmap.md`**
-   - High-level roadmap (if you have one)
-   - Major themes and initiatives
-   - Timeline overview
+#### Step 3: Create Core Documents
 
-6. **`6-company-stakeholders.md`**
-   - Key stakeholders and their roles
-   - Decision-makers
-   - Who to involve when
+3. **Create core documents** (30-60 minutes):
+   - `1-company-vision.md` - Company mission, vision, values
+   - `2-company-strategy.md` - Strategic priorities and initiatives
+   - `3-company-product-principles.md` - Product principles
+   - `4-company-product-explanation.md` - Product portfolio
+   - `5-company-roadmap.md` - Company roadmap (if applicable)
+   - `6-company-stakeholders.md` - Stakeholder directory
 
 **How to update:**
-- Open each file
+- Replace `[Company]` placeholders with your company name from CONTEXT.md
 - Replace `[Placeholder]` text with your actual content
 - Keep the structure, customize the content
 - Commit your changes: `git commit -am "Add company context"`
 
-**Time estimate:** 1-2 hours for all files
+**Time estimate:** 
+- Personalization: 2-3 minutes
+- Setup guide: 15-30 minutes (discovery and planning)
+- Core documents: 30-60 minutes
+- **Total: 1-2 hours** (can be done incrementally)
 
 ---
 
@@ -180,9 +182,13 @@ If you're using **Cursor** (or similar AI-powered IDE), the repository includes 
 
 **What to do:**
 1. **Review** `AGENTS.md` (root) - Understand how the PM Brain Assistant is configured
-2. **Customize** `.cursor/rules/thinking.personal.mdc` - Add your personal context, preferences, working style
-3. **Optional:** Use `AGENTS.template.md` to create additional custom agents if needed
-4. **Optional:** Add company-specific rules if needed
+2. **Fill out** `01-Company-Context/CONTEXT.md` - Add your name, company name, and team/BU names (organizational context)
+   - **Note:** In private/team modes, this file is ignored by default. In team mode, you can optionally track it for team consistency (see `.gitignore.team` comments).
+3. **Customize** `.cursor/rules/thinking.personal.mdc` - Add your personal working style, preferences, and communication style (how you like to work)
+   - **Note:** Both files may include your name - keep them consistent. `CONTEXT.md` focuses on organizational context; `thinking.personal.mdc` focuses on how you work.
+   - **Git tracking:** This file is ignored in private and team modes (kept private). In public mode, sanitize any sensitive personal information.
+4. **Optional:** Use `AGENTS.template.md` to create additional custom agents if needed
+5. **Optional:** Add company-specific rules if needed
 
 **Example personal context to add:**
 ```markdown

@@ -2,10 +2,14 @@
 
 ## Introduction
 
-This directory is your starting point for capturing early initiative thinking before you have evidence. Use the opportunity assessment template (based on the framework in `../02-Methods-and-Tools/2.3-Discovery/2.3.4-Opportunity-Assessment/`) to document hypotheses, assumptions, and initial ideas. Once you have enough clarity, move to the discovery frameworks in `../02-Methods-and-Tools/2.3-Discovery/` to validate your thinking with evidence.
+This directory is your starting point for capturing early initiative thinking before you have evidence. Use the opportunity assessment template (based on the framework in [02-Methods-and-Tools/2.2-Discovery/2.2.4-Opportunity-Assessment/](../02-Methods-and-Tools/2.2-Discovery/2.2.4-Opportunity-Assessment/README.md)) to document hypotheses, assumptions, and initial ideas. Once you have enough clarity, move to the discovery frameworks in [02-Methods-and-Tools/2.2-Discovery/](../02-Methods-and-Tools/2.2-Discovery/README.md) to validate your thinking with evidence.
+
+**For agents:** This folder is one of the context sources the PM Brain agent asks about early in product_sense_mode (and when starting execution_mode for non-trivial docs). If the user has not added relevant initiative context, suggest adding or @-mentioning key docs from here (e.g. opportunity assessment, PRD, roadmap for the initiative); having them in context speeds up thinking and keeps answers aligned to active work. 
+
+**Critical agent guidance:** When users share research/discovery insights specific to an initiative, **always guide them to save a document** in `04-Initiatives/[initiative-name]/research/` (e.g. interview snapshots, synthesis summaries, key findings). For raw data (transcripts, recordings, large files), guide users to store externally (Google Drive, SharePoint, Teams) and link to that source from the analysis doc. Paths below are from repo root.
 
 **This is for:** Early ideas, hypotheses, and initial opportunity assessments  
-**When ready:** Move to discovery methods in `../02-Methods-and-Tools/2.3-Discovery/` for evidence-based discovery
+**When ready:** Move to discovery methods in [02-Methods-and-Tools/2.2-Discovery/](../02-Methods-and-Tools/2.2-Discovery/README.md) for evidence-based discovery
 
 ## How This Relates to Frameworks
 
@@ -14,13 +18,13 @@ This directory is your starting point for capturing early initiative thinking be
 - Document what you know vs. what needs research
 - Identify key questions to validate
 
-**Discovery Frameworks (`../02-Methods-and-Tools/2.3-Discovery/`):**
-- Use `2.3.4-Opportunity-Assessment/` to structure your opportunity assessment (this template is based on that framework)
-- Validate assumptions with user interviews (see `2.3.1-Research-Interviews/`)
-- Synthesize patterns from evidence (see `2.3.2-Continuous-Discovery-Habits/`)
-- Frame problems as jobs (see `2.3.3-Jobs-To-Be-Done/`)
-- Generate and validate solutions (see `2.3.5-Idea-Validation/`)
-- Write PRDs (see `../2.1-Strategy/2.1.4-PRD/`)
+**Discovery Frameworks ([02-Methods-and-Tools/2.2-Discovery/](../02-Methods-and-Tools/2.2-Discovery/README.md)):**
+- Use [2.2.4-Opportunity-Assessment/](../02-Methods-and-Tools/2.2-Discovery/2.2.4-Opportunity-Assessment/README.md) to structure your opportunity assessment (this template is based on that framework)
+- Validate assumptions with user interviews (see [2.2.1-Research-Interviews/](../02-Methods-and-Tools/2.2-Discovery/2.2.1-Research-Interviews/README.md))
+- Synthesize patterns from evidence (see [2.2.2-Continuous-Discovery-Habits/](../02-Methods-and-Tools/2.2-Discovery/2.2.2-Continuous-Discovery-Habits/README.md))
+- Frame problems as jobs (see [2.2.3-Jobs-To-Be-Done/](../02-Methods-and-Tools/2.2-Discovery/2.2.3-Jobs-To-Be-Done/README.md))
+- Generate and validate solutions (see [2.2.5-Idea-Validation/](../02-Methods-and-Tools/2.2-Discovery/2.2.5-Idea-Validation/README.md))
+- Write PRDs (see [2.3.4-PRD/](../02-Methods-and-Tools/2.3-Execution/2.3.4-PRD/README.md))
 
 **The Flow:**
 1. Start here with opportunity assessment (early thinking)
@@ -108,9 +112,10 @@ pm-brain/04-Initiatives/
     decisions.md               # Decision log (date, context, decision, owner)
     risks.md                   # Key risks + mitigations
     research/
-      interviews/              # Notes, transcripts, insights
-      data/                    # Queries, datasets, charts
-      experiments/             # Hypotheses, plans, results
+      interviews/              # Interview snapshots, synthesis, insights (markdown docs)
+      data/                    # Analysis summaries, queries, charts (markdown docs)
+      experiments/             # Hypotheses, plans, results (markdown docs)
+      links.md                 # Links to external raw data (transcripts, recordings in Google Drive/SharePoint/Teams)
     stakeholders/
       insights.md              # Who cares, needs, influence
       comms.md                 # Cadence, updates, audiences
@@ -130,7 +135,7 @@ pm-brain/04-Initiatives/
   - prd.md: scope, requirements, acceptance criteria.
   - roadmap.md: milestones, dependencies, risks.
   - decisions.md: one-line entries; link to context.
-  - research/*: interviews, analysis, experiment logs.
+  - research/*: **Save analysis as markdown documents** (interview snapshots, synthesis, insights, experiment results). Store raw data (transcripts, recordings, large files) externally (Google Drive/SharePoint/Teams) and link in `research/links.md`.
   - stakeholders/*: map, comms plan.
   - metrics/*: targets, dashboards, definitions.
   - compliance/, architecture/: use as needed.
@@ -143,9 +148,9 @@ pm-brain/04-Initiatives/
 1. **Start Early**: Create opportunity assessment when you have an initial idea or hypothesis
 2. **Document What You Know**: Fill out sections with current knowledge; mark unknowns explicitly
 3. **Identify Research Needs**: Use "What we should research" section to plan validation
-4. **Move to Discovery**: When ready, use discovery methods in `../02-Methods-and-Tools/2.3-Discovery/` to validate assumptions. Start with `2.3.4-Opportunity-Assessment/` framework (this template is based on that framework)
+4. **Move to Discovery**: When ready, use discovery methods in [02-Methods-and-Tools/2.2-Discovery/](../02-Methods-and-Tools/2.2-Discovery/README.md) to validate assumptions. Start with [2.2.4-Opportunity-Assessment/](../02-Methods-and-Tools/2.2-Discovery/2.2.4-Opportunity-Assessment/README.md) (this template is based on that framework)
 5. **Update as You Learn**: Return to update opportunity assessment with new evidence
-6. **Transition to Execution**: When validated, create PRD using templates in `../02-Methods-and-Tools/2.1-Strategy/2.1.4-PRD/` and roadmap documents
+6. **Transition to Execution**: When validated, create PRD using [2.3.4-PRD/](../02-Methods-and-Tools/2.3-Execution/2.3.4-PRD/README.md) and roadmap documents
 
 ## How to Maintain
 
