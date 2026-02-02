@@ -51,6 +51,13 @@ You do **not** need to answer every question below. A small set of simple prompt
 | Crisis / incident | [When Something Goes Wrong (Crisis / Incident)](#when-something-goes-wrong-crisis--incident) |
 | Teardown | [Before a Product Teardown](#before-a-product-teardown) |
 | Stakeholders | [Before Talking to Stakeholders](#before-talking-to-stakeholders) |
+| Stakeholder mapping | [Before Stakeholder Mapping](#before-stakeholder-mapping) |
+| Saying no | [Before Saying No](#before-saying-no) |
+| Escalation | [Before Escalation](#before-escalation) |
+| Meeting / agenda | [Before Scheduling a Meeting](#before-scheduling-a-meeting) |
+| Self-reflection / retro | [Before Self-Reflection](#before-self-reflection) |
+| Continuous discovery | [Before Continuous Discovery](#before-continuous-discovery-interviews-synthesis-opportunities) |
+| Any framework (generic) | [Generic Step 0 (any framework)](#generic-step-0-any-framework) |
 | AI product | [For AI Product Decisions](#for-ai-product-decisions) |
 | Not sure which | [Meta-Prompt: When You Don't Know Which Prompts to Use](#meta-prompt-when-you-dont-know-which-prompts-to-use) |
 
@@ -224,6 +231,13 @@ Before you dive into any specific section, quickly run through these:
 - What do we learn per dollar or hour spent?
 - What assumptions does this test? Does this reduce critical uncertainty?
 
+### Prioritization gut check
+
+- If you could only ship ONE thing in the next quarter, what would it be? Why?
+- Which initiatives feel like they'll move the needle vs. just keep things running?
+- Are you prioritizing based on what's loudest or what's most valuable?
+- What would make you say "this prioritization is obviously wrong"? "Obviously right"?
+
 -----
 
 ## Before a Product Strategy Session
@@ -274,6 +288,7 @@ Before you dive into any specific section, quickly run through these:
 - What assumption, if wrong, would completely change our plans?
 - What do I think I know that I'm not actually sure about?
 - What evidence would change my mind?
+- If you had to explain this problem to a 5-year-old, what would you say? (Simplification test)
 
 ### Curiosity Check
 
@@ -299,6 +314,18 @@ Before you dive into any specific section, quickly run through these:
 - When did this problem last occur? Walk me through exactly what happened.
 - What would make this problem go away forever? Who else experiences this?
 - What's the cost of NOT solving this?
+
+### Interview Question Quality
+
+**Before preparing interview questions, ask yourself:**
+- Am I asking about past behavior or future intentions? (Past = "Tell me about the last time you..."; Future = "Would you use..." — avoid future)
+- Am I asking about specific instances or hypotheticals? (Specific = "When was the last time this happened?"; Hypothetical = "What if we built X?" — avoid hypotheticals)
+- Am I asking about facts or opinions? (Facts = "What did you actually do?"; Opinions = "What do you think about X?" — prefer facts)
+- Can they lie about this answer? (If yes, reframe to past behavior and concrete examples)
+
+**Red flags in their responses:** If they're complimenting your idea, asking about pricing, or saying "I would definitely use that"—you're probably asking the wrong questions. Switch to past behavior and specific instances.
+
+**For deeper interview techniques:** See [2.2.1-Research-Interviews/](../../../2.2-Discovery/2.2.1-Research-Interviews/1-interview-guide.md) and [The Mom Test](https://momtestbook.com/) by Rob Fitzpatrick.
 
 -----
 
@@ -407,6 +434,105 @@ Before you dive into any specific section, quickly run through these:
 - Have I delivered for them before?
 - What's the history I'm not accounting for?
 - Who influences them that I should talk to first?
+
+-----
+
+## Generic Step 0 (any framework)
+
+Use this when a framework has a "Step 0: Braindump" and no situation-specific section fits. Combine with the [Golden nuggets](#golden-nuggets-one-liners-that-work-almost-everywhere) and [30-second pre-flight](#30-second-pre-flight-before-any-major-decision).
+
+- What are you trying to do? Dump your thinking - don't structure yet.
+- What does your product sense tell you? What feels right or wrong?
+- What assumptions are you making? List them explicitly.
+- What biases might be affecting you? (See [2.0.2-Bias](../../2.0.2-Bias/1-bias-framework.md) for checklist.)
+
+**Product sense exercise:**
+- If you had to defend this to a skeptic, what would you say?
+- What would make you say "this is obviously wrong"? "Obviously right"?
+
+-----
+
+## Before Stakeholder Mapping
+
+- Who affects or is affected by your work? Dump everyone - don't filter yet.
+- What does your product sense tell you? Who really matters?
+- What assumptions are you making about relationships? List them.
+- What biases might affect your stakeholder view? (Overvaluing some? Undervaluing others?)
+
+**Product sense exercise:**
+- If you had to get buy-in from ONE person, who would it be? Why?
+- What would make you say "this stakeholder map is obviously wrong"?
+
+-----
+
+## Before Saying No
+
+- What are they really asking for? Dump your understanding - don't judge yet.
+- What does your product sense tell you? Is there a yes hidden in this request?
+- What assumptions are you making? What's the real need behind the request?
+- What biases might affect your response? (People-pleasing? Avoiding conflict?)
+
+**Product sense exercise:**
+- If you had unlimited resources, would you say yes?
+- What would make you say "I obviously need to say no"?
+
+-----
+
+## Before Escalation
+
+- What's the issue? Dump everything you know - don't structure yet.
+- What does your product sense tell you? Can you handle this?
+- What assumptions are you making? What have you tried?
+- What biases might affect your decision? (Escalating too quickly? Avoiding escalation?)
+
+**Product sense exercise:**
+- If you had full authority, what would you do?
+- What would make you say "I obviously need to escalate this"? "I can obviously handle this myself"?
+
+-----
+
+## Before Scheduling a Meeting
+
+- What are you trying to accomplish? Dump everything - don't structure yet.
+- What does your product sense tell you? Is a meeting really needed?
+- What assumptions are you making? Could this be async instead?
+- What biases might affect your meeting planning? (Meeting for meeting's sake? Status update trap?)
+- If you had to accomplish this in 15 minutes, how would you do it? (Time constraint test)
+
+-----
+
+## Before Self-Reflection
+
+Use after a decision, launch, or retro.
+
+- What did you just work on? Dump everything - don't structure yet.
+- What does your product sense tell you about what happened? What feels right or wrong?
+- What assumptions did you make? List them explicitly.
+- What biases might have affected your thinking? (Confirmation? Anchoring? Sunk cost?)
+
+**Product sense exercise:**
+- If you had to explain what happened to a mentor, what would you say?
+- What would make you say "this outcome was obviously wrong"? "Obviously right"?
+
+-----
+
+## Before Continuous Discovery (interviews / synthesis / opportunities)
+
+**Before conducting interviews:**
+- What do you think you know about customers? Dump all assumptions.
+- What biases might affect your interviews? (Confirmation bias? Solution bias?)
+- What does your product sense tell you? What feels off or interesting?
+- What would great product sense notice here? What would an experienced PM see?
+
+**Before synthesizing:**
+- What patterns do you think you're seeing? Dump your initial thoughts.
+- What biases might affect your synthesis? (Pattern matching bias? Availability bias?)
+- What does your gut tell you? What feels important?
+
+**Before creating opportunities:**
+- What opportunities do you think exist? Dump everything.
+- What does your product sense tell you? What feels like a real opportunity?
+- What biases might be affecting your view? (Solution bias? Feature bias?)
 
 -----
 

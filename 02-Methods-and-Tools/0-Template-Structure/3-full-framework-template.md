@@ -12,24 +12,17 @@
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before using [Framework Name], braindump:**
+⚠️ **Don't jump straight to templates.**
 
-- [Braindump prompt 1 - e.g., "What outcomes are you trying to achieve? Dump everything - don't structure yet."]
-- [Braindump prompt 2 - e.g., "What does your product sense tell you? What feels right or wrong?"]
-- [Braindump prompt 3 - e.g., "What assumptions are you making? List them explicitly."]
-- [Braindump prompt 4 - e.g., "What biases might affect your view? (e.g., Vanity metrics? Activity vs. outcome?)"]
+**Braindump first:** See [`PRODUCT-SENSE-RULES.md`](../../../PRODUCT-SENSE-RULES.md) for the golden rule and workflow.
 
-**Product sense exercise:**
+**Use prompts from:** [`2-product-sense-prompts.md`](../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) for the relevant situation (e.g., "Before Writing a PRD", "Before Making a Prioritization Decision", "Before User Research / Discovery", "Before a Product Strategy Session").
 
-- [Question 1 - e.g., "If you had to pick ONE outcome that matters most, what would it be? Why?"]
-- [Question 2 - e.g., "What would make you say 'this is obviously wrong'?"]
-- [Question 3 - e.g., "What would make you say 'this is obviously right'?"]
-- [Question 4 - e.g., "What does your intuition tell you about [key aspect]?"]
+**Quick start (top 3-4 questions from the prompts file):**
+- [Pick the most relevant questions from the canonical prompts file for this framework's context]
+- [See prompts file for full list organized by situation]
 
-**Bias check:**
-
-- [Bias awareness prompt 1 - e.g., "What biases might be affecting your view?"]
-- [Bias awareness prompt 2 - e.g., "Are you seeing what you want to see, or what's actually there?"]
+**Bias check:** See [`2.0.2-Bias/1-bias-framework.md`](../../2.0-Foundations/2.0.2-Bias/1-bias-framework.md) for bias awareness prompts.
 
 **Capture your initial thoughts:**
 

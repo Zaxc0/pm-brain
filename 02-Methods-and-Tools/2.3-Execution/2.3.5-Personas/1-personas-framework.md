@@ -6,12 +6,7 @@ This framework provides two approaches for creating personas: HEART (human-cente
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before creating personas, braindump:**
-- Who are your users? Dump everything you know - don't structure yet.
-- What does your product sense tell you? What user segments matter most?
-- What assumptions are you making about users? List them explicitly.
-- What biases might affect your personas? (Stereotyping? Confirmation bias?)
-- What would great product sense look like here? What would an experienced PM notice?
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Generic Step 0 (any framework)](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework) and [Before Writing a PRD](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-writing-a-prd) (user understanding). Quick start: Who are your users? What segments matter most? What assumptions about users? What biases might affect your personas? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you had to pick ONE user type to focus on, who would it be? Why?

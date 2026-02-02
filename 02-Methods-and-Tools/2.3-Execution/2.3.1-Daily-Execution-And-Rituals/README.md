@@ -15,11 +15,9 @@ This framework provides step-by-step instructions for day-to-day PM execution in
 
 ### Step 0: Braindump & Assess (Critical!)
 
-**Before setting up your routines, braindump:**
-- What does your typical day look like? Dump everything - don't judge yet.
-- What does your product sense tell you? What's working? What's not?
-- What assumptions are you making about how you should work?
-- What biases might affect your routines? (Firefighting? Meeting overload?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Generic Step 0 (any framework)](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework).
+
+**Quick start:** What does your typical day look like? What's working? What's not? What assumptions about how you should work? What biases might affect your routines? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you had to be 2x more effective, what would you change?

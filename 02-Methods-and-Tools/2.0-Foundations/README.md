@@ -7,10 +7,10 @@ Foundational thinking tools and self-awareness frameworks that support every PM 
 - **Senior PMs:** Calibration and shared vocabulary for coaching, critiques, and decision quality.
 
 ## Before using anything here (recommended)
-- Braindump: What are you trying to decide or learn?
-- Product sense: What feels right/wrong about the situation?
-- Bias check: Which biases are likely (confirmation, anchoring, sunk cost)?
-- Reflection: What would make this obviously right or wrong in hindsight?
+
+**Use prompts from:** [2-product-sense-prompts.md](2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) — [Generic Step 0](2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework) for any framework; [Before Self-Reflection](2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-self-reflection) for retros.
+
+**Quick start:** What are you trying to decide or learn? What feels right/wrong? What assumptions? Which biases are likely? What would make this obviously right or wrong in hindsight? **See prompts file for full list.**
 
 ## How this is organized
 - `2.0.1-Mental-Models/` — Quick lenses for decisions, product thinking, execution hygiene, team dynamics, and work levels. **Use when:** You need fast framing before deeper work.

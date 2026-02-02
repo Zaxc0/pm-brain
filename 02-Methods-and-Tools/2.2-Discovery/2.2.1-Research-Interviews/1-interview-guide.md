@@ -15,18 +15,9 @@ This guide provides principles and best practices for conducting effective custo
 
 ## Before Conducting Interviews: Braindump & Product Sense
 
-**Before preparing your interview questions, take 10-15 minutes to braindump:**
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Continuous Discovery (interviews / synthesis / opportunities)](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-continuous-discovery-interviews-synthesis-opportunities) → "Before conducting interviews" subsection.
 
-- What do you think you know about customers? Dump all assumptions.
-- What does your product sense tell you? What feels off or interesting?
-- What biases might affect your interviews? (Confirmation bias? Solution bias?)
-- What would great product sense notice? What would an experienced PM see?
-- What questions does your gut tell you to ask?
-
-**Product sense exercise:**
-- If you had to interview ONE customer and learn everything important, what would you ask?
-- What would make you say "this interview is obviously going wrong"?
-- What would make you say "this interview is obviously going well"?
+**Quick start:** What do you think you know about customers? What does your product sense tell you? What biases might affect your interviews? What would great product sense notice? If you had to interview ONE customer and learn everything important, what would you ask? **See prompts file for full list.**
 
 **Then use this guide** to structure your approach and avoid common pitfalls.
 

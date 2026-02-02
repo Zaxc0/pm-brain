@@ -6,12 +6,7 @@ The Kano model is a theory for product development and customer satisfaction dev
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before classifying features, braindump:**
-- What features are you considering? List everything - don't categorize yet.
-- What does your product sense tell you? Which features feel like table stakes vs. game-changers?
-- What assumptions are you making about customer expectations? Are they truly basic needs or just loud requests?
-- What biases might affect your categorization? (Status quo? Competitive copying? Squeaky wheel?)
-- What would great product sense look like here? What would customers expect vs. what would make them say "wow"?
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Making a Prioritization Decision](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-making-a-prioritization-decision). Quick start: What features? Which feel table stakes vs. game-changers? What assumptions about customer expectations? What biases? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you could only ship features that prevent dissatisfaction, which would they be? (These are likely must-haves)

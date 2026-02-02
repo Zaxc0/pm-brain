@@ -27,16 +27,9 @@ This framework helps product teams systematically explore ambiguous problems and
 
 ### Step 0: Braindump & Explore (Critical!)
 
-**Before starting exploration, braindump:**
-- What problem are you trying to solve? Dump everything - don't structure yet.
-- What does your product sense tell you? What feels like the real problem?
-- What assumptions are you making? List them explicitly.
-- What biases might affect your exploration? (Solution bias? Jumping to solutions?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Generic Step 0 (any framework)](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework) and [Before User Research / Discovery](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-user-research--discovery).
 
-**Product sense exercise:**
-- If you had to explain this problem to a 5-year-old, what would you say?
-- What would make you say "we're solving the wrong problem"?
-- What would make you say "we're solving the right problem"?
+**Quick start:** What problem are you trying to solve? What feels like the real problem? What assumptions? What biases might affect your exploration? If you had to explain this problem to a 5-year-old, what would you say? **See prompts file for full list.**
 
 ### Step 1: Review Framework
 Read `1-problem-solution-space-framework.md` to understand exploration methods and framework selection

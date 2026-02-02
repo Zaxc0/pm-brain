@@ -6,35 +6,7 @@ This framework helps product teams make systematic decisions about what to build
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before using RICE/ICE prioritization, braindump:**
-
-- What initiatives are you considering? List everything - don't score yet.
-- What does your product sense tell you? Which initiatives feel urgent vs. important?
-- What assumptions are you making about impact, effort, and reach? List them explicitly.
-- What biases might affect your prioritization? (HiPPO pressure? Recency bias? Squeaky wheel? Status quo?)
-- What would great product sense look like here? What would an experienced PM prioritize?
-
-**Product sense exercise:**
-
-- If you could only ship ONE thing in the next quarter, what would it be? Why?
-- What would make you say "this prioritization is obviously wrong"?
-- What would make you say "this prioritization is obviously right"?
-- Which initiatives feel like they'll move the needle vs. just keep things running?
-
-**Bias check:**
-
-- What biases might be affecting your view? (Activity bias? Vanity metrics? Output vs. outcome?)
-- Are you prioritizing based on what's loudest or what's most valuable?
-- What would someone with different product sense prioritize?
-
-**Capture your initial thoughts:**
-
-- Write down your gut reactions before scoring
-- Note what feels high priority vs. low priority intuitively
-- Identify any red flags your intuition is raising
-- List initiatives that feel like they should be deprioritized
-
-**Then proceed** to use RICE/ICE scoring to structure, validate, and deepen your initial product sense.
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Making a Prioritization Decision](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-making-a-prioritization-decision). Quick start: What initiatives are you considering? Which feel urgent vs. important? What assumptions about impact, effort, reach? What biases? **See prompts file for full list.** Then proceed to use RICE/ICE scoring to structure your thinking.
 
 ---
 

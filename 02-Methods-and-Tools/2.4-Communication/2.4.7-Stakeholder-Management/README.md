@@ -11,16 +11,9 @@ This framework helps product managers identify, prioritize, and effectively mana
 
 ### Step 0: Braindump & Think First (Critical!)
 
-**Before mapping stakeholders, braindump:**
-- Who affects or is affected by your work? Dump everyone - don't filter yet.
-- What does your product sense tell you? Who really matters?
-- What assumptions are you making about relationships? List them.
-- What biases might affect your stakeholder view? (Overvaluing some? Undervaluing others?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Stakeholder Mapping](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-stakeholder-mapping).
 
-**Product sense exercise:**
-- If you had to get buy-in from ONE person, who would it be? Why?
-- What would make you say "this stakeholder map is obviously wrong"?
-- What would make you say "this stakeholder map is obviously right"?
+**Quick start:** Who affects or is affected by your work? Who really matters? What assumptions about relationships? What biases might affect your view? If buy-in from ONE person, who? What would make you say "this stakeholder map is obviously wrong"? **See prompts file for full list.**
 
 ### Step 1: Review Framework
 Read `1-stakeholder-management-framework.md` to understand stakeholder management principles

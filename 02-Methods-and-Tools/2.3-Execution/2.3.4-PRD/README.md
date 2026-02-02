@@ -69,17 +69,16 @@ Use this framework and template to create product requirements documents that br
 
 ### 2. Braindump First (15-20 min)
 
-**Use the prompts:** [`02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md`](../../../../02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md)
+**Use prompts from:** [`2-product-sense-prompts.md`](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → "Before Writing a PRD" section.
 
-Specifically, the "Before Writing a PRD" section:
+**Quick start (top 4-5 questions):**
 - Who is this really for? (actual human, not persona)
 - What job are they hiring this feature to do?
-- Why hasn't this been solved already?
 - What assumptions am I making?
 - What could go catastrophically wrong?
 - Why this, why now?
 
-**Don't organize yet. Just think deeply and honestly.**
+**See prompts file for full list.** Don't organize yet. Just think deeply and honestly.
 
 ### 3. Then Use This Framework
 

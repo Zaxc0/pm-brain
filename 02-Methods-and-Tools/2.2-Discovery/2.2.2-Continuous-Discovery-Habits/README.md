@@ -25,21 +25,9 @@ Use these templates to conduct systematic customer discovery interviews and synt
 
 ### Step 0: Braindump & Check Biases (Do this first!)
 
-**Before conducting interviews, braindump:**
-- What do you think you know about customers? Dump all assumptions.
-- What biases might affect your interviews? (Confirmation bias? Solution bias?)
-- What does your product sense tell you? What feels off or interesting?
-- What would great product sense notice here? What would an experienced PM see?
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Continuous Discovery (interviews / synthesis / opportunities)](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-continuous-discovery-interviews-synthesis-opportunities).
 
-**Before synthesizing, braindump:**
-- What patterns do you think you're seeing? Dump your initial thoughts.
-- What biases might affect your synthesis? (Pattern matching bias? Availability bias?)
-- What does your gut tell you? What feels important?
-
-**Before creating opportunities, braindump:**
-- What opportunities do you think exist? Dump everything.
-- What does your product sense tell you? What feels like a real opportunity?
-- What biases might be affecting your view? (Solution bias? Feature bias?)
+**Quick start:** Before interviews: What do you think you know? What biases might affect interviews? What would great product sense notice? Before synthesizing: What patterns do you think you're seeing? What biases might affect synthesis? Before creating opportunities: What opportunities do you think exist? What biases might be affecting your view? **See prompts file for full list.**
 
 ### Step 1: Conduct Interviews
 Use `1-create-interview-snapshot.md` to capture insights from each interview.

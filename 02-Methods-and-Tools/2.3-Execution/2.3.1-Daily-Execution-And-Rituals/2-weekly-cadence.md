@@ -6,11 +6,7 @@ This guide provides step-by-step instructions for week-over-week PM execution. T
 
 ## Step 0: Braindump & Assess (Critical!)
 
-**Before setting up your weekly routines, braindump:**
-- What does your typical week look like? Dump everything - don't judge yet.
-- What does your product sense tell you? What's working? What's not?
-- What assumptions are you making about how you should work week-over-week?
-- What biases might affect your weekly routines? (Planning too much? Not planning enough?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Generic Step 0 (any framework)](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework). Quick start: What does your typical week look like? What's working? What's not? What assumptions about week-over-week? What biases? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you had to be 2x more effective week-over-week, what would you change?

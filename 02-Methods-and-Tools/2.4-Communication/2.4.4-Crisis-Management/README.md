@@ -12,16 +12,9 @@ This framework helps product teams and organizations prepare for, respond to, an
 
 ### Step 0: Braindump & Assess (Critical!)
 
-**When a potential crisis emerges, braindump:**
-- What's happening? Dump all facts - don't filter yet.
-- What does your product sense tell you? How serious is this really?
-- What assumptions are you making? What don't you know yet?
-- What biases might affect your assessment? (Minimizing? Overreacting? Availability bias?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [When Something Goes Wrong (Crisis / Incident)](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#when-something-goes-wrong-crisis--incident).
 
-**Product sense exercise:**
-- If this were happening to a competitor, how would you assess it?
-- What would make you say "this is obviously a crisis"?
-- What would make you say "this is just an incident"?
+**Quick start:** What's happening? How serious is this really? What assumptions? What don't you know yet? What biases might affect your assessment? What would make you say "obviously a crisis" vs "just an incident"? **See prompts file for full list.**
 
 ### Step 1: Assess Severity
 Use the severity criteria to determine if this is Level 1, 2, or 3

@@ -11,15 +11,9 @@ This framework helps PMs decline requests gracefully without burning bridges. Sa
 
 ### Step 0: Braindump & Assess (Critical!)
 
-**Before saying no, braindump:**
-- What are they really asking for? Dump your understanding - don't judge yet.
-- What does your product sense tell you? Is there a yes hidden in this request?
-- What assumptions are you making? What's the real need behind the request?
-- What biases might affect your response? (People-pleasing? Avoiding conflict?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Saying No](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-saying-no).
 
-**Product sense exercise:**
-- If you had unlimited resources, would you say yes?
-- What would make you say "I obviously need to say no"?
+**Quick start:** What are they really asking for? Is there a yes hidden in this request? What's the real need behind the request? What biases might affect your response? If unlimited resources, would you say yes? **See prompts file for full list.**
 - What would make you say "I can obviously find a way to say yes"?
 
 ### Step 1: Review Framework

@@ -18,12 +18,9 @@ Follow this sequence for new initiatives:
 
 **Golden rule:** Braindump before structure. See `PRODUCT-SENSE-RULES.md`.
 
-**First: Brain dump everything** (use prompts from `2-product-sense-prompts.md` for your context)
-- What are you trying to achieve?
-- Who is this for?
-- What do you already know?
-- What assumptions are you making?
-- Pick 3–5 prompts from @02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md that feel uncomfortable—those are the important ones.
+**First: Brain dump everything** — Braindump your thinking first using prompts from the canonical prompts file. Pick 3–5 prompts that feel uncomfortable—those are the important ones.
+
+**Use prompts from:** [`2-product-sense-prompts.md`](../../02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) for your situation (e.g., "Before User Research" for discovery, "Before Writing a PRD" for execution, "Before Making a Prioritization Decision" for strategy). See the prompts file for the full list organized by situation.
 
 **Then: Run bias check**
 - Use /bias command before proceeding

@@ -6,16 +6,9 @@ This framework helps you create and manage Objectives and Key Results (OKRs) tha
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before setting OKRs, braindump:**
-- What outcomes are you trying to achieve? Dump everything - don't structure yet.
-- What does your product sense tell you? What feels like the right outcome?
-- What assumptions are you making? List them explicitly.
-- What biases might affect your OKRs? (Vanity metrics? Activity vs. outcome?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before a Product Strategy Session](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-a-product-strategy-session).
 
-**Product sense exercise:**
-- If you had to pick ONE outcome that matters most, what would it be? Why?
-- What would make you say "these OKRs are obviously wrong"?
-- What would make you say "these OKRs are obviously right"?
+**Quick start:** What outcomes are you trying to achieve? What feels like the right outcome? What assumptions? What biases might affect your OKRs? If you had to pick ONE outcome that matters most, what would it be? **See prompts file for full list.**
 
 **When to use OKRs:**
 - Operationalizing strategic priorities into measurable outcomes

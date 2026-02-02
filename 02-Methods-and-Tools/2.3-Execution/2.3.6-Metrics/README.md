@@ -11,11 +11,9 @@ This framework helps product teams distinguish between meaningful metrics and mi
 
 ### Step 0: Braindump & Think First (Critical!)
 
-**Before defining metrics, braindump:**
-- What outcomes are you trying to achieve? Dump everything - don't structure yet.
-- What does your product sense tell you? What metrics feel meaningful?
-- What assumptions are you making about what to measure?
-- What biases might affect your metric choices? (Vanity metrics? Activity bias?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Generic Step 0 (any framework)](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework).
+
+**Quick start:** What outcomes are you trying to achieve? What metrics feel meaningful? What assumptions about what to measure? What biases might affect your choices? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you had to pick ONE metric that matters most, what would it be? Why?

@@ -6,14 +6,10 @@
 User stories translate customer needs into actionable development work. A well-written story captures WHO, WHAT, and WHY in a format that guides development and testing.
 
 ## Step 0: Braindump & Product Sense (Do this first!)
-**Before writing stories, braindump:**
-- What problem are we solving? For whom?
-- What does your product sense tell you about this feature?
-- Are we solving the right problem or just adding features?
 
-**Product sense exercise:**
-- If this story takes 2 weeks to build, will it create 2 weeks' worth of value?
-- What would make you say "this story is obviously wrong"?
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Writing a PRD](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-writing-a-prd) (user understanding and problem clarity).
+
+**Quick start:** What problem are we solving? For whom? What does your product sense tell you about this feature? Are we solving the right problem or just adding features? If this story takes 2 weeks to build, will it create 2 weeks' worth of value? **See prompts file for full list.**
 
 ## When to Use
 - Breaking down features into development tasks

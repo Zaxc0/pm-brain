@@ -6,16 +6,11 @@ This framework helps product teams recognize and mitigate cognitive biases that 
 
 ## Step 0: Braindump & Reflect (Critical!)
 
-**Before making decisions, braindump:**
-- What decision are you making? Dump your thinking - don't structure yet.
-- What does your product sense tell you? What feels right or wrong?
-- What assumptions are you making? List them explicitly.
-- What biases might be affecting you? (Confirmation? Anchoring? Sunk cost?)
+**Braindump first:** See [PRODUCT-SENSE-RULES.md](../../../../PRODUCT-SENSE-RULES.md) for the golden rule.
 
-**Product sense exercise:**
-- If you had to defend this decision to a skeptic, what would you say?
-- What would make you say "this decision is obviously biased"?
-- What would make you say "this decision is obviously sound"?
+**Use prompts from:** [2-product-sense-prompts.md](../../2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Generic Step 0 (any framework)](../../2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework).
+
+**Quick start:** What decision are you making? What does your product sense tell you? What assumptions are you making? What biases might be affecting you? If you had to defend this to a skeptic, what would you say? What would make you say "obviously biased" or "obviously sound"? **See prompts file for full list.**
 
 ## Core Philosophy
 

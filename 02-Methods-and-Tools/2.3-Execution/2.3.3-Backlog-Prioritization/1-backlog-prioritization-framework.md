@@ -10,11 +10,7 @@ This framework helps you prioritize your product backlog using a systematic appr
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before prioritizing, braindump:**
-- What's in your backlog? List everything - don't structure yet.
-- What does your product sense tell you should be priorities?
-- What assumptions are you making about value and effort?
-- What biases might affect prioritization? (Recency bias? Stakeholder pressure? Shiny object syndrome?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Making a Prioritization Decision](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-making-a-prioritization-decision). Quick start: What's in your backlog? What should be priorities? What assumptions about value and effort? What biases? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you could only build ONE thing from the backlog, what would it be? Why?

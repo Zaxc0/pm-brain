@@ -13,12 +13,9 @@ This framework helps product teams prioritize features by categorizing them into
 
 ### Step 0: Braindump & Product Sense (Do this first!)
 
-**Before using MoSCoW, braindump:**
-- What features/initiatives are you considering? List everything - don't categorize yet.
-- What does your product sense tell you? What truly makes or breaks this release?
-- What assumptions are you making about must-haves? Are they actually must-haves?
-- What biases might affect your categorization? (Stakeholder pressure? Latest customer complaint? Personal preferences?)
-- What would great product sense look like here? What would an experienced PM absolutely insist on vs. be flexible about?
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Making a Prioritization Decision](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-making-a-prioritization-decision).
+
+**Quick start:** What features/initiatives are you considering? What truly makes or breaks this release? What assumptions about must-haves? What biases might affect your categorization? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you could ONLY ship 3 things, what would they be? Why?

@@ -11,16 +11,9 @@ This framework helps PMs navigate when to escalate issues in large organizations
 
 ### Step 0: Braindump & Assess (Critical!)
 
-**Before escalating, braindump:**
-- What's the issue? Dump everything you know - don't structure yet.
-- What does your product sense tell you? Can you handle this?
-- What assumptions are you making? What have you tried?
-- What biases might affect your decision? (Escalating too quickly? Avoiding escalation?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Escalation](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-escalation).
 
-**Product sense exercise:**
-- If you had full authority, what would you do?
-- What would make you say "I obviously need to escalate this"?
-- What would make you say "I can obviously handle this myself"?
+**Quick start:** What's the issue? Can you handle this? What assumptions? What have you tried? What biases might affect your decision? If full authority, what would you do? What would make you say "obviously need to escalate" vs "obviously handle myself"? **See prompts file for full list.**
 
 ### Step 1: Review Framework
 Read `1-escalation-framework.md` to understand when and how to escalate

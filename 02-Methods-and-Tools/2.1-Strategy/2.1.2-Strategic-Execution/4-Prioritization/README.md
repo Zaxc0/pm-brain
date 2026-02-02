@@ -12,15 +12,15 @@ Systematic methods to decide what to do first. Use these to make defensible, tra
 
 ### 2. Braindump First (15 min)
 
-**Use the prompts:** [`02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md`](../../../../../02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md)
+**Use prompts from:** [`2-product-sense-prompts.md`](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → "Before Making a Prioritization Decision" section.
 
-Specifically, the "Before Making a Prioritization Decision" section:
+**Quick start (top 3-4 questions):**
 - What evidence do I have this matters? (Real data, not vibes)
 - What's the opportunity cost?
 - Am I falling in love with my solution vs. the problem?
 - What would make me 10x more confident?
 
-**Prioritization frameworks can't create judgment—they organize it.**
+**See prompts file for full list.** Prioritization frameworks can't create judgment—they organize it.
 
 ### 3. Log the Decision (Optional but Recommended)
 

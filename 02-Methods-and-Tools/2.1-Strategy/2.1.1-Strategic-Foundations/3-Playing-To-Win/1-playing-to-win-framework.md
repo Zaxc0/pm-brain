@@ -12,16 +12,9 @@ Playing to Win treats strategy as a creative act focused on making integrated ch
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before answering the 5 questions, braindump:**
-- What does "winning" mean for your product/company? Don't structure yet—just dump everything.
-- What does your product sense tell you about where you should focus?
-- What assumptions are you making about customers, competition, capabilities?
-- What biases might cloud your strategic choices? (Anchoring on current product? Copying competitors?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before a Product Strategy Session](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-a-product-strategy-session).
 
-**Product sense exercise:**
-- If you could only compete in ONE market/segment, which would it be? Why?
-- What would make you say "this strategy is obviously wrong"?
-- What would make you say "this strategy is obviously right"?
+**Quick start:** What does "winning" mean for your product/company? What does your product sense tell you about where you should focus? What assumptions about customers, competition, capabilities? What biases might cloud your strategic choices? If you could only compete in ONE market/segment, which would it be? **See prompts file for full list.**
 
 **When to use Playing to Win:**
 - Making core strategic choices about markets and positioning

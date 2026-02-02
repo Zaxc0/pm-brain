@@ -6,12 +6,7 @@ This framework helps product teams align around a single metric that captures cu
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before defining your North Star, braindump:**
-- What outcomes are you trying to achieve? Dump everything - don't structure yet.
-- What does your product sense tell you? What metric feels like it captures real value?
-- What assumptions are you making? List them explicitly.
-- What biases might affect your metric choice? (Vanity metrics? Activity vs. outcome?)
-- What would great product sense look like here? What would an experienced PM focus on?
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before a Product Strategy Session](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-a-product-strategy-session). Quick start: What outcomes are you trying to achieve? What metric feels like it captures real value? What assumptions? What biases might affect your metric choice? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you had to pick ONE metric that represents customer value, what would it be? Why?

@@ -31,15 +31,15 @@ A comprehensive framework for creating stakeholder-friendly product roadmaps tha
 
 ### 2. Braindump First (15 min)
 
-**Use the prompts:** [`02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md`](../../../../../02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md)
+**Use prompts from:** [`2-product-sense-prompts.md`](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → "Before a Product Strategy Session" and "Before Making a Prioritization Decision" sections.
 
-Specifically, the "Before a Product Strategy Session" and "Before Making a Prioritization Decision" sections:
+**Quick start (top 3-4 questions):**
 - What's changed in the last 3-6 months that we're not talking about?
 - What are we NOT doing if we do this?
 - What's the opportunity cost?
 - What do I wish we knew that we don't?
 
-**Roadmaps organize your direction—they don't create it.**
+**See prompts file for full list.** Roadmaps organize your direction—they don't create it.
 
 ### 3. Then Use This Framework
 

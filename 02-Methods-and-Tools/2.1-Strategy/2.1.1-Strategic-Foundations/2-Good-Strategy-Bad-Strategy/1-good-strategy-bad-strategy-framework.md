@@ -12,16 +12,9 @@ Good Strategy/Bad Strategy provides diagnostic criteria for evaluating whether y
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before evaluating your strategy, braindump:**
-- What's the real challenge we're facing? Don't polish—just dump everything you see.
-- What does your product sense tell you is the REAL problem vs. symptoms?
-- What assumptions might be hiding the true challenge?
-- What biases might make us avoid facing hard truths? (Wishful thinking? Avoiding conflict?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before a Product Strategy Session](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-a-product-strategy-session).
 
-**Product sense exercise:**
-- If you had to explain the challenge to a 10-year-old, what would you say?
-- What would make you say "this strategy is obviously bad"?
-- What would make you say "this strategy is obviously good"?
+**Quick start:** What's the real challenge we're facing? What does your product sense tell you is the REAL problem vs. symptoms? What assumptions might be hiding the true challenge? What biases might make us avoid facing hard truths? If you had to explain the challenge to a 10-year-old, what would you say? **See prompts file for full list.**
 
 **When to use the Kernel:**
 - Evaluating whether your strategy is actually a strategy

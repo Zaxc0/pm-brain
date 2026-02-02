@@ -2,19 +2,9 @@
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before reflecting, braindump:**
-- What did you just work on? Dump everything - don't structure yet.
-- What does your product sense tell you about what happened? What feels right or wrong?
-- What assumptions did you make? List them explicitly.
-- What biases might have affected your thinking? (Confirmation? Anchoring? Sunk cost?)
+**Use prompts from:** [2-product-sense-prompts.md](../../2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Self-Reflection](../../2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-self-reflection).
 
-**Product sense exercise:**
-- If you had to explain what happened to a mentor, what would you say?
-- What would make you say "this outcome was obviously wrong"?
-- What would make you say "this outcome was obviously right"?
-
-**Bias check:**
-- What biases might have affected your view? (Confirmation bias? Solution bias? Sunk cost fallacy?)
+**Quick start:** What did you just work on? What does your product sense tell you about what happened? What assumptions did you make? What biases might have affected your thinking? Explain to a mentor; what would make you say "obviously wrong" or "obviously right"? **See prompts file for full list.** Then use the bias checklist in [2.0.2-Bias](../../2.0.2-Bias/1-bias-framework.md) if needed.
 
 ## Overview
 

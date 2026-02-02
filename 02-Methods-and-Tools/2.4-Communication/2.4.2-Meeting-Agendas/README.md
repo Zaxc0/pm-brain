@@ -12,11 +12,9 @@ This framework helps product teams run effective meetings that drive decisions a
 
 ### Step 0: Braindump & Think First (Critical!)
 
-**Before scheduling any meeting, braindump:**
-- What are you trying to accomplish? Dump everything - don't structure yet.
-- What does your product sense tell you? Is a meeting really needed?
-- What assumptions are you making? Could this be async instead?
-- What biases might affect your meeting planning? (Meeting for meeting's sake? Status update trap?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before Scheduling a Meeting](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-scheduling-a-meeting).
+
+**Quick start:** What are you trying to accomplish? Is a meeting really needed? Could this be async? What biases might affect your planning? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you had to accomplish this in 15 minutes, how would you do it?

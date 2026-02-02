@@ -6,17 +6,7 @@ This framework helps product managers create roadmaps that effectively communica
 
 ## Step 0: Braindump & Product Sense (Do this first!)
 
-**Before creating roadmap, braindump:**
-- What initiatives are you considering? Dump everything - don't prioritize yet.
-- What does your product sense tell you? What feels urgent vs. important?
-- What assumptions are you making about timing? List them.
-- What biases might affect your roadmap? (Recency bias? Squeaky wheel? Status quo?)
-- What would great product sense look like here? What would an experienced PM prioritize?
-
-**Product sense exercise:**
-- If you had to ship ONE thing in the next quarter, what would it be? Why?
-- What would make you say "this roadmap is obviously wrong"?
-- What would make you say "this roadmap is obviously right"?
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Before a Product Strategy Session](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-a-product-strategy-session) and [Before Making a Prioritization Decision](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#before-making-a-prioritization-decision). Quick start: What initiatives are you considering? What's the opportunity cost? What do you wish you knew? **See prompts file for full list.**
 
 ## Core Philosophy
 

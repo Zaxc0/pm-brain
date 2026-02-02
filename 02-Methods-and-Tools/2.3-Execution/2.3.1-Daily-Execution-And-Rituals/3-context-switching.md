@@ -6,11 +6,7 @@ This guide helps PMs manage multiple initiatives, stakeholders, and priorities b
 
 ## Step 0: Braindump & Assess (Critical!)
 
-**Before setting up your context zones, braindump:**
-- What are all the different "worlds" you work in? Dump everything - don't judge yet.
-- What does your product sense tell you? Where do you spend too much time? Too little?
-- What assumptions are you making about how you should allocate time?
-- What biases might affect your context switching? (Firefighting? Shiny object syndrome?)
+**Use prompts from:** [2-product-sense-prompts.md](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → [Generic Step 0 (any framework)](../../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md#generic-step-0-any-framework). Quick start: What "worlds" do you work in? Where do you spend too much/too little time? What assumptions about allocating time? What biases? **See prompts file for full list.**
 
 **Product sense exercise:**
 - If you had to be 2x more effective across all your initiatives, what would you change?

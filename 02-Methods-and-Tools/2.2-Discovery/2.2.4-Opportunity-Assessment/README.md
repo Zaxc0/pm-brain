@@ -10,15 +10,15 @@
 
 ### 2. Braindump First (15-20 min)
 
-**Use the prompts:** [`02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md`](../../../../02-Methods-and-Tools/2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md)
+**Use prompts from:** [`2-product-sense-prompts.md`](../../../../2.0-Foundations/2.0.1-Mental-Models/6-Product-Sense-Development/2-product-sense-prompts.md) → "Before User Research / Discovery" section (and "Before Writing a PRD" if you're moving toward execution).
 
-Specifically, the "Before Writing a PRD" and "Before User Research" sections:
+**Quick start (top 3-4 questions):**
 - Who is this really for?
 - What job are they hiring this to do?
 - What assumptions am I making?
 - What evidence would change my mind?
 
-**Opportunity assessments organize hypotheses—they don't create insights.**
+**See prompts file for full list.** Opportunity assessments organize hypotheses—they don't create insights.
 
 ### 3. Then Use This Framework
 
